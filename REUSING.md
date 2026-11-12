@@ -287,6 +287,14 @@ BUI-GPU does 2.8 ms CPU and 21.1 ms GPU. Neither column alone is a verdict.
 **A desktop is not a lab.** Interleave configurations within each repetition and
 report spread. Rows measured minutes apart are not comparable.
 
+**Check `uptime` before you start, and record load while you run.** A sweep of
+this repo was once invalidated by an unrelated package build that took all eight
+threads: BUI's CPU raster read 21.91 ms/frame where an idle machine gives 7.16 —
+a 3x inflation, every row of it. Nothing in the data looked "wrong"; it only
+looked slow. The harness now stores `load1` on every row so a contaminated
+`results.json` can be spotted afterwards (`max(r["load1"] for r in rows)`), but
+the cheap fix is to look before you measure.
+
 **`--gpu` must be asserted, not assumed.** The verifier checks that the GPU
 renderer actually lowered CPU and raised RSS; a silently-fallen-back software
 path otherwise looks like a spectacular result. (This repo's own verifier caught

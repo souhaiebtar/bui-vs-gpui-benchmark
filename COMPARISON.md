@@ -149,129 +149,129 @@ the only like-for-like measure, and it is what a battery or a fan actually feels
 
 | Framework | FPS | CPU % | CPU ms/frame | GPU ms/frame | **Total ms** | RSS MB | Private MB | First frame ms |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| BUI-CPU | 49.7 <sub>(49.5–51.0)</sub> | 13.8 | 2.78 <sub>(2.20–2.86)</sub> | - | **2.78** | 19.2 | 11.0 | 2 |
-| BUI-GPU | 57.1 <sub>(54.5–57.3)</sub> | 3.5 | 0.62 <sub>(0.58–0.64)</sub> | 8.18 <sub>(7.22–8.52)</sub> | **8.80** | 84.4 | 22.8 | 3 |
-| gpui | 59.9 <sub>(59.9–60.0)</sub> | 12.4 | 2.06 <sub>(1.79–2.16)</sub> | 2.00 <sub>(1.78–2.07)</sub> | **4.06** | 88.1 | 25.7 | 72 |
+| BUI-CPU | 49.8 <sub>(33.9–49.9)</sub> | 13.6 | 2.73 <sub>(2.66–5.26)</sub> | - | **2.73** | 19.2 | 11.0 | 2.5 |
+| BUI-GPU | 57.3 <sub>(51.0–57.3)</sub> | 3.7 | 0.64 <sub>(0.63–1.18)</sub> | 9.84 <sub>(7.69–10.71)</sub> | **10.48** | 84.6 | 22.8 | 1.7 |
+| gpui | 60.0 <sub>(58.8–60.0)</sub> | 13.0 | 2.16 <sub>(1.95–4.90)</sub> | 1.96 <sub>(1.86–2.73)</sub> | **4.12** | 88.1 | 25.7 | 71.6 |
 
 #### 100 cells · `one`
 
 | Framework | FPS | CPU % | CPU ms/frame | GPU ms/frame | **Total ms** | RSS MB | Private MB | First frame ms |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| BUI-CPU | 53.0 <sub>(52.9–53.1)</sub> | 11.0 | 2.08 <sub>(2.07–2.12)</sub> | - | **2.08** | 18.1 | 10.2 | 2 |
-| BUI-GPU | 57.3 <sub>(57.3–57.3)</sub> | 3.5 | 0.61 <sub>(0.61–0.61)</sub> | 8.37 <sub>(8.08–8.86)</sub> | **8.98** | 83.6 | 22.1 | 3 |
-| gpui | 60.0 <sub>(59.9–60.0)</sub> | 8.2 | 1.36 <sub>(1.27–1.58)</sub> | 2.00 <sub>(1.86–2.28)</sub> | **3.36** | 88.0 | 25.6 | 76 |
+| BUI-CPU | 53.8 <sub>(53.7–54.0)</sub> | 9.4 | 1.74 <sub>(1.70–1.77)</sub> | - | **1.74** | 18.0 | 10.2 | 1.5 |
+| BUI-GPU | 57.2 <sub>(57.1–57.3)</sub> | 3.1 | 0.54 <sub>(0.54–0.55)</sub> | 7.17 <sub>(7.17–7.18)</sub> | **7.71** | 83.5 | 22.1 | 1.4 |
+| gpui | 60.0 <sub>(60.0–60.0)</sub> | 6.9 | 1.14 <sub>(1.14–1.23)</sub> | 1.78 <sub>(1.77–1.79)</sub> | **2.92** | 88.1 | 25.6 | 54.2 |
 
 #### 100 cells · `idle`
 
 | Framework | Frames/s | CPU % | CPU ms/s | RSS MB | Private MB | First frame ms |
 |---|---:|---:|---:|---:|---:|---:|
-| BUI-CPU | 0.0 | 0.10 | 0.00 | 17.1 | 9.0 | 2 |
-| BUI-GPU | 0.0 | 0.10 | 0.00 | 82.7 | 21.0 | 2 |
-| gpui | 0.0 | 0.30 | 0.00 | 88.0 | 25.6 | 56 |
+| BUI-CPU | 0.0 | 0.10 | 0.00 | 17.2 | 9.0 | 1.4 |
+| BUI-GPU | 0.0 | 0.10 | 0.00 | 82.7 | 21.0 | 2.5 |
+| gpui | 0.0 | 0.20 | 0.00 | 88.1 | 25.6 | 58.3 |
 
 #### 1000 cells · `anim`
 
 | Framework | FPS | CPU % | CPU ms/frame | GPU ms/frame | **Total ms** | RSS MB | Private MB | First frame ms |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| BUI-CPU | 42.0 <sub>(41.9–42.1)</sub> | 27.0 | 6.41 <sub>(6.39–6.48)</sub> | - | **6.41** | 24.2 | 16.0 | 2 |
-| BUI-GPU | 50.7 <sub>(50.5–50.7)</sub> | 14.3 | 2.82 <sub>(2.79–2.88)</sub> | 21.09 <sub>(21.03–21.38)</sub> | **23.91** | 90.4 | 28.6 | 2 |
-| gpui | 59.8 <sub>(59.8–59.9)</sub> | 61.2 | 10.22 <sub>(10.20–10.30)</sub> | 2.04 <sub>(2.03–2.05)</sub> | **12.27** | 102.5 | 40.0 | 53 |
+| BUI-CPU | 41.0 <sub>(40.0–41.9)</sub> | 29.4 | 7.16 <sub>(6.50–7.74)</sub> | - | **7.16** | 24.2 | 16.0 | 1.6 |
+| BUI-GPU | 50.5 <sub>(48.8–50.6)</sub> | 14.4 | 2.85 <sub>(2.78–3.68)</sub> | 21.12 <sub>(21.02–21.22)</sub> | **23.97** | 90.4 | 28.6 | 1.5 |
+| gpui | 58.8 <sub>(53.6–59.9)</sub> | 65.7 | 11.17 <sub>(10.26–13.27)</sub> | 2.03 <sub>(2.03–2.04)</sub> | **13.20** | 102.4 | 39.7 | 54.3 |
 
 #### 1000 cells · `one`
 
 | Framework | FPS | CPU % | CPU ms/frame | GPU ms/frame | **Total ms** | RSS MB | Private MB | First frame ms |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| BUI-CPU | 44.4 <sub>(44.4–44.4)</sub> | 25.2 | 5.68 <sub>(5.66–5.69)</sub> | - | **5.68** | 24.0 | 15.9 | 2 |
-| BUI-GPU | 51.0 <sub>(50.9–51.1)</sub> | 13.5 | 2.65 <sub>(2.63–2.66)</sub> | 21.04 <sub>(20.98–21.14)</sub> | **23.69** | 90.1 | 28.5 | 3 |
-| gpui | 59.8 <sub>(59.7–59.9)</sub> | 61.2 | 10.22 <sub>(10.16–10.29)</sub> | 2.03 <sub>(2.02–2.03)</sub> | **12.25** | 102.2 | 39.8 | 60 |
+| BUI-CPU | 42.6 <sub>(41.7–44.3)</sub> | 28.7 | 6.72 <sub>(5.73–7.17)</sub> | - | **6.72** | 24.1 | 15.9 | 1.5 |
+| BUI-GPU | 50.1 <sub>(49.5–50.9)</sub> | 15.8 | 3.16 <sub>(2.67–3.35)</sub> | 21.06 <sub>(20.95–21.35)</sub> | **24.22** | 90.3 | 28.6 | 1.4 |
+| gpui | 59.3 <sub>(52.0–59.8)</sub> | 71.3 | 12.25 <sub>(10.36–13.65)</sub> | 2.03 <sub>(2.00–2.07)</sub> | **14.28** | 102.2 | 39.8 | 57.3 |
 
 #### 1000 cells · `idle`
 
 | Framework | Frames/s | CPU % | CPU ms/s | RSS MB | Private MB | First frame ms |
 |---|---:|---:|---:|---:|---:|---:|
-| BUI-CPU | 0.0 | 0.10 | 0.00 | 22.8 | 14.6 | 2 |
-| BUI-GPU | 0.0 | 0.10 | 0.00 | 88.7 | 26.9 | 2 |
-| gpui | 0.0 | 0.30 | 0.00 | 102.2 | 39.8 | 56 |
+| BUI-CPU | 0.0 | 0.10 | 0.00 | 22.7 | 14.6 | 1.5 |
+| BUI-GPU | 0.0 | 0.10 | 0.00 | 88.6 | 26.9 | 1.5 |
+| gpui | 0.0 | 0.20 | 0.00 | 102.3 | 39.9 | 54.2 |
 
 #### 3000 cells · `anim`
 
 | Framework | FPS | CPU % | CPU ms/frame | GPU ms/frame | **Total ms** | RSS MB | Private MB | First frame ms |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| BUI-CPU | 33.4 <sub>(33.2–33.5)</sub> | 41.7 | 12.49 <sub>(12.45–12.69)</sub> | - | **12.49** | 32.9 | 24.6 | 2 |
-| BUI-GPU | 39.7 <sub>(39.5–39.8)</sub> | 32.6 | 8.20 <sub>(8.19–8.33)</sub> | 29.01 <sub>(28.82–29.31)</sub> | **37.21** | 101.5 | 39.8 | 2 |
-| gpui | 27.9 <sub>(27.8–28.5)</sub> | 90.9 | 32.58 <sub>(32.39–32.68)</sub> | 2.65 <sub>(2.63–2.66)</sub> | **35.23** | 133.4 | 71.0 | 66 |
+| BUI-CPU | 30.9 <sub>(28.7–33.1)</sub> | 46.7 | 15.13 <sub>(12.71–17.53)</sub> | - | **15.13** | 32.9 | 24.6 | 1.5 |
+| BUI-GPU | 38.0 <sub>(34.9–39.4)</sub> | 35.9 | 9.44 <sub>(8.39–11.73)</sub> | 29.17 <sub>(28.62–29.59)</sub> | **38.61** | 100.8 | 38.8 | 1.5 |
+| gpui | 20.0 <sub>(17.9–26.8)</sub> | 79.5 | 37.57 <sub>(32.73–45.90)</sub> | 2.62 <sub>(2.56–2.67)</sub> | **40.19** | 133.9 | 71.4 | 56.4 |
 
 #### 3000 cells · `one`
 
 | Framework | FPS | CPU % | CPU ms/frame | GPU ms/frame | **Total ms** | RSS MB | Private MB | First frame ms |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| BUI-CPU | 35.4 <sub>(35.3–35.5)</sub> | 40.2 | 11.35 <sub>(11.30–11.45)</sub> | - | **11.35** | 33.6 | 25.3 | 2 |
-| BUI-GPU | 40.5 <sub>(40.3–40.6)</sub> | 31.2 | 7.70 <sub>(7.64–7.85)</sub> | 28.43 <sub>(28.01–28.70)</sub> | **36.13** | 101.7 | 40.0 | 2 |
-| gpui | 26.0 <sub>(25.1–27.5)</sub> | 85.9 | 33.08 <sub>(32.84–33.57)</sub> | 2.66 <sub>(2.62–2.68)</sub> | **35.74** | 133.9 | 71.4 | 57 |
+| BUI-CPU | 32.8 <sub>(31.2–34.5)</sub> | 44.6 | 13.62 <sub>(12.07–15.27)</sub> | - | **13.62** | 33.5 | 25.3 | 1.5 |
+| BUI-GPU | 38.5 <sub>(36.9–40.1)</sub> | 35.0 | 9.09 <sub>(8.02–10.21)</sub> | 29.14 <sub>(28.83–29.41)</sub> | **38.23** | 100.7 | 38.8 | 2.2 |
+| gpui | 20.1 <sub>(18.7–21.4)</sub> | 73.9 | 35.91 <sub>(34.11–43.03)</sub> | 2.64 <sub>(2.59–2.64)</sub> | **38.55** | 133.9 | 71.4 | 57.3 |
 
 #### 3000 cells · `idle`
 
 | Framework | Frames/s | CPU % | CPU ms/s | RSS MB | Private MB | First frame ms |
 |---|---:|---:|---:|---:|---:|---:|
-| BUI-CPU | 0.0 | 0.10 | 0.00 | 32.3 | 24.2 | 2 |
-| BUI-GPU | 0.0 | 0.10 | 0.00 | 99.6 | 38.0 | 2 |
-| gpui | 0.0 | 0.30 | 0.00 | 133.8 | 71.2 | 57 |
+| BUI-CPU | 0.0 | 0.10 | 0.00 | 32.3 | 24.2 | 1.6 |
+| BUI-GPU | 0.0 | 0.10 | 0.00 | 100.1 | 38.3 | 1.6 |
+| gpui | 0.0 | 0.20 | 0.00 | 133.5 | 71.2 | 54.3 |
 
 #### Uncapped (vsync off)
 
 | Framework | Cells | FPS | CPU ms/frame | GPU ms/frame | Total ms |
 |---|---:|---:|---:|---:|---:|
-| BUI-CPU | 100 | 49.7 <sub>(49.6–49.8)</sub> | 2.82 <sub>(2.73–2.85)</sub> | - | 2.82 |
-| BUI-GPU | 100 | 57.2 <sub>(57.1–57.3)</sub> | 0.63 <sub>(0.62–0.64)</sub> | 8.37 <sub>(8.20–8.61)</sub> | 9.00 |
-| gpui | 100 | 60.0 <sub>(59.9–60.0)</sub> | 2.04 <sub>(1.93–2.21)</sub> | 2.06 <sub>(2.00–2.11)</sub> | 4.10 |
-| BUI-CPU | 1000 | 41.6 <sub>(41.6–41.7)</sub> | 6.68 <sub>(6.64–6.77)</sub> | - | 6.68 |
-| BUI-GPU | 1000 | 50.6 <sub>(50.4–50.9)</sub> | 2.84 <sub>(2.77–2.86)</sub> | 21.08 <sub>(21.03–21.37)</sub> | 23.92 |
-| gpui | 1000 | 59.9 <sub>(59.6–59.9)</sub> | 10.24 <sub>(10.17–10.35)</sub> | 2.04 <sub>(2.03–2.04)</sub> | 12.28 |
-| BUI-CPU | 3000 | 33.5 <sub>(33.4–33.6)</sub> | 12.38 <sub>(12.29–12.47)</sub> | - | 12.38 |
-| BUI-GPU | 3000 | 39.7 <sub>(39.7–39.8)</sub> | 8.18 <sub>(8.12–8.21)</sub> | 29.03 <sub>(28.68–29.57)</sub> | 37.21 |
-| gpui | 3000 | 28.1 <sub>(27.8–28.4)</sub> | 32.56 <sub>(32.45–32.58)</sub> | 2.63 <sub>(2.60–2.64)</sub> | 35.19 |
+| BUI-CPU | 100 | 50.9 <sub>(30.4–51.0)</sub> | 2.22 <sub>(2.19–5.89)</sub> | - | 2.22 |
+| BUI-GPU | 100 | 57.1 <sub>(55.3–57.2)</sub> | 0.57 <sub>(0.57–0.78)</sub> | 7.22 <sub>(7.20–7.30)</sub> | 7.79 |
+| gpui | 100 | 60.0 <sub>(60.0–60.0)</sub> | 1.78 <sub>(1.75–1.82)</sub> | 1.78 <sub>(1.77–1.78)</sub> | 3.56 |
+| BUI-CPU | 1000 | 40.3 <sub>(39.7–41.7)</sub> | 7.63 <sub>(6.69–7.98)</sub> | - | 7.63 |
+| BUI-GPU | 1000 | 50.5 <sub>(49.9–50.6)</sub> | 2.84 <sub>(2.80–3.22)</sub> | 21.08 <sub>(20.99–21.15)</sub> | 23.92 |
+| gpui | 1000 | 59.7 <sub>(58.5–59.8)</sub> | 11.09 <sub>(10.19–11.55)</sub> | 2.04 <sub>(2.02–2.05)</sub> | 13.13 |
+| BUI-CPU | 3000 | 33.2 <sub>(31.1–33.6)</sub> | 12.67 <sub>(12.26–14.93)</sub> | - | 12.67 |
+| BUI-GPU | 3000 | 39.5 <sub>(38.1–39.7)</sub> | 8.34 <sub>(8.15–9.36)</sub> | 28.89 <sub>(28.55–29.05)</sub> | 37.23 |
+| gpui | 3000 | 25.2 <sub>(19.6–28.0)</sub> | 33.75 <sub>(32.55–40.03)</sub> | 2.62 <sub>(2.59–2.65)</sub> | 36.37 |
 
 #### Total cost matrix (CPU + GPU ms per frame)
 
 | Cells | BUI-CPU | BUI-GPU | gpui | gpui ÷ BUI-GPU | gpui ÷ BUI-CPU |
 |---:|---:|---:|---:|---:|---:|
-| 100 | 2.78 | 8.80 | 4.06 | 0.46x | 1.46x |
-| 1000 | 6.41 | 23.91 | 12.27 | 0.51x | 1.91x |
-| 3000 | 12.49 | 37.21 | 35.23 | 0.95x | 2.82x |
+| 100 | 2.73 | 10.48 | 4.12 | 0.39x | 1.51x |
+| 1000 | 7.16 | 23.97 | 13.20 | 0.55x | 1.84x |
+| 3000 | 15.13 | 38.61 | 40.19 | 1.04x | 2.66x |
 
 #### Scaling from 100 to 3000 cells (30x the cells)
 
 | Framework | CPU ms/frame | | GPU ms/frame | | Total ms/frame | | FPS | |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| BUI-CPU | 2.78 → 12.49 | 4.5x | - → - | - | 2.78 → 12.49 | 4.5x | 50 → 33 | 0.67x |
-| BUI-GPU | 0.62 → 8.20 | 13.2x | 8.18 → 29.01 | 3.5x | 8.80 → 37.21 | 4.2x | 57 → 40 | 0.70x |
-| gpui | 2.06 → 32.58 | 15.8x | 2.00 → 2.65 | 1.3x | 4.06 → 35.23 | 8.7x | 60 → 28 | 0.47x |
+| BUI-CPU | 2.73 → 15.13 | 5.5x | - → - | - | 2.73 → 15.13 | 5.5x | 50 → 31 | 0.62x |
+| BUI-GPU | 0.64 → 9.44 | 14.8x | 9.84 → 29.17 | 3.0x | 10.48 → 38.61 | 3.7x | 57 → 38 | 0.66x |
+| gpui | 2.16 → 37.57 | 17.4x | 1.96 → 2.62 | 1.3x | 4.12 → 40.19 | 9.8x | 60 → 20 | 0.33x |
 
 #### Resident memory against scene size
 
 | Framework | 100 cells | 1000 cells | 3000 cells | Growth |
 |---|---:|---:|---:|---:|
 | BUI-CPU | 19.2 MB | 24.2 MB | 32.9 MB | +13.7 MB |
-| BUI-GPU | 84.4 MB | 90.4 MB | 101.5 MB | +17.1 MB |
-| gpui | 88.1 MB | 102.5 MB | 133.4 MB | +45.3 MB |
+| BUI-GPU | 84.6 MB | 90.4 MB | 100.8 MB | +16.2 MB |
+| gpui | 88.1 MB | 102.4 MB | 133.9 MB | +45.8 MB |
 
 #### Example 2 · static settings form
 
 | App | Renderer | First frame ms | RSS MB | Private MB | Idle CPU % |
 |---|---|---:|---:|---:|---:|
-| bui form (divs) | cpu | 2 <sub>(1–3)</sub> | 10.1 <sub>(10.1–10.2)</sub> | 2.1 | 0.10 |
-| bui form (divs) + GPU | gpu | 3 <sub>(2–3)</sub> | 81.5 <sub>(81.2–81.6)</sub> | 19.8 | 0.10 |
-| bui form (Blender widgets) | cpu | 3 <sub>(2–3)</sub> | 10.4 <sub>(10.2–10.5)</sub> | 2.1 | 0.10 |
-| gpui form (divs) | gpu | 73 <sub>(60–87)</sub> | 87.0 <sub>(86.7–87.2)</sub> | 24.5 | 0.30 |
+| bui form (divs) | cpu | 1.5 <sub>(1.4–2.1)</sub> | 10.1 <sub>(10.0–10.4)</sub> | 2.1 | 0.10 |
+| bui form (divs) + GPU | gpu | 1.6 <sub>(1.5–2.3)</sub> | 81.5 <sub>(81.2–81.6)</sub> | 19.8 | 0.10 |
+| bui form (Blender widgets) | cpu | 1.6 <sub>(1.5–2.2)</sub> | 10.2 <sub>(10.2–10.6)</sub> | 2.1 | 0.10 |
+| gpui form (divs) | gpu | 58.9 <sub>(53.0–73.5)</sub> | 87.1 <sub>(86.9–87.3)</sub> | 24.6 | 0.20 |
 
 #### Derived ratios (1000 cells, animating)
 
-- gpui CPU per frame ÷ BUI-GPU CPU per frame: **3.63x**
-- BUI-GPU GPU per frame ÷ gpui GPU per frame: **10.34x**
-- gpui total ÷ BUI-GPU total: **0.51x**
-- gpui total ÷ BUI-CPU total: **1.91x**
-- BUI-CPU RSS ÷ gpui RSS: **0.24x** (BUI smaller)
-- gpui first frame ÷ BUI first frame: **26x**
+- gpui CPU per frame ÷ BUI-GPU CPU per frame: **3.92x**
+- BUI-GPU GPU per frame ÷ gpui GPU per frame: **10.40x**
+- gpui total ÷ BUI-GPU total: **0.55x**
+- gpui total ÷ BUI-CPU total: **1.84x**
+- gpui RSS ÷ BUI-CPU RSS: **4.23x** (BUI smaller)
+- gpui first frame ÷ BUI-CPU first frame: **34x**
 
 ### 3.2 What the numbers mean
 
@@ -279,35 +279,35 @@ the only like-for-like measure, and it is what a battery or a fan actually feels
 
 | Cells | BUI-CPU | BUI-GPU | gpui | Winner |
 |---:|---:|---:|---:|---|
-| 100 | **2.78 ms** | 8.80 ms | 4.06 ms | BUI-CPU |
-| 1000 | **6.41 ms** | 23.91 ms | 12.27 ms | BUI-CPU |
-| 3000 | **12.49 ms** | 37.21 ms | 35.23 ms | BUI-CPU |
+| 100 | **2.73 ms** | 10.48 ms | 4.12 ms | BUI-CPU |
+| 1000 | **7.16 ms** | 23.97 ms | 13.20 ms | BUI-CPU |
+| 3000 | **15.13 ms** | 38.61 ms | 40.19 ms | BUI-CPU |
 
 BUI's **software raster** is the cheapest in total at every size — by 1.5x
-against gpui at 100 cells, 1.9x at 1000, and 2.8x at 3000. It achieves that by
+against gpui at 100 cells, 1.8x at 1000, and 2.7x at 3000. It achieves that by
 never touching the GPU at all.
 
 BUI's **GPU renderer** is the opposite trade: it wins CPU decisively
-(3.63x less than gpui at 1000 cells) but spends **10.34x more GPU time**
-(21.09 ms against 2.04 ms). In total it is *more* expensive than gpui at 100 and
-1000 cells, and reaches only rough parity at 3000 (37.21 against 35.23 ms). It
-moves the work rather than removing it.
+(3.9x less than gpui at 1000 cells) but spends **10.4x more GPU time**
+(21.12 ms against 2.03 ms). In total it is *more* expensive than gpui at 100 and
+1000 cells, and only reaches parity at 3000 (38.61 against 40.19 ms). It moves
+the work rather than removing it.
 
 **gpui** sits in between, and is the most *balanced*: it keeps the GPU nearly
-idle (2.0–2.7 ms) and puts the load on the CPU (2.06 → 32.58 ms as the scene
+idle (2.0–2.7 ms) and puts the load on the CPU (2.16 → 37.57 ms as the scene
 grows). That balance is why it holds 60 fps longest.
 
 ### 3.3 Where each framework wins
 
 | Dimension | Winner | Margin (1000 cells unless stated) |
 |---|---|---|
-| Total cost per frame | **BUI-CPU** | 1.9x cheaper than gpui, 3.7x cheaper than BUI-GPU |
-| CPU per frame | **BUI-GPU** | 3.63x less than gpui |
-| GPU per frame | **gpui** | 10.34x less than BUI-GPU |
-| Frame rate at 100–1000 cells | **gpui** | 59.8–60.0 fps vs 42–51 |
-| Frame rate at 3000 cells | **BUI-GPU** | 39.7 fps vs gpui's 27.9 |
-| Resident memory | **BUI-CPU** | 24.2 MB vs 102.5 MB — **4.2x smaller** |
-| Time to first frame | **BUI** | 2 ms vs 53–76 ms — **26x faster** |
+| Total cost per frame | **BUI-CPU** | 1.8x cheaper than gpui, 3.3x cheaper than BUI-GPU |
+| CPU per frame | **BUI-GPU** | 3.9x less than gpui |
+| GPU per frame | **gpui** | 10.4x less than BUI-GPU |
+| Frame rate at 100–1000 cells | **gpui** | 58.8–60.0 fps vs 41–50 |
+| Frame rate at 3000 cells | **BUI-GPU** | 38.0 fps vs gpui's 20.0 |
+| Resident memory | **BUI-CPU** | 24.2 MB vs 102.4 MB — **4.2x smaller** |
+| Time to first frame | **BUI** | 1.5 ms vs 54–72 ms — **~38x faster** |
 | Idle CPU | **BUI** | 0.10 % vs 0.30 % of a core |
 | Widgets out of the box | **BUI** | Blender's full set vs primitives |
 
@@ -317,9 +317,9 @@ As the scene grows 30x (100 → 3000 cells), the three designs diverge sharply:
 
 | Framework | CPU growth | GPU growth | Total growth | FPS change |
 |---|---|---|---|---|
-| BUI-CPU | 4.5x | — | 4.5x | 50 → 33 fps (0.67x) |
-| BUI-GPU | 13.2x | 3.5x | 4.2x | 57 → 40 fps (0.70x) |
-| gpui | 15.8x | 1.3x | **8.7x** | 60 → 28 fps (**0.47x**) |
+| BUI-CPU | 5.5x | — | 5.5x | 50 → 31 fps (0.62x) |
+| BUI-GPU | 14.8x | 3.4x | 3.7x | 57 → 38 fps (0.66x) |
+| gpui | 17.4x | 1.4x | **9.8x** | 60 → 20 fps (**0.33x**) |
 
 gpui's cost grows fastest because its CPU side — the cascade, layout and paint
 list — is where all the per-cell work happens, and its GPU barely notices. BUI's
@@ -335,9 +335,9 @@ ms per frame and not just fps.
 
 | Framework | 100 cells | 1000 cells | 3000 cells | Growth |
 |---|---:|---:|---:|---:|
-| BUI-CPU | 19.2 MB | 24.2 MB | 32.9 MB | +13.7 MB |
-| BUI-GPU | 84.4 MB | 90.4 MB | 101.5 MB | +17.1 MB |
-| gpui | 88.1 MB | 102.5 MB | 133.4 MB | **+45.3 MB** |
+| BUI-CPU | 19.2 MB | 24.2 MB | 33.1 MB | +13.9 MB |
+| BUI-GPU | 84.6 MB | 90.4 MB | 100.9 MB | +16.3 MB |
+| gpui | 88.1 MB | 102.4 MB | 133.7 MB | **+45.6 MB** |
 
 BUI's CPU raster holds a **4.2x smaller footprint** at 1000 cells. Its growth
 with scene size is also the smallest, because it keeps only a framebuffer and
@@ -354,11 +354,12 @@ is the OpenGL device, glyph atlas and textures.
 
 | Framework | First frame (median) | Range across the sweep |
 |---|---:|---|
-| BUI-CPU | **2 ms** | 2–3 ms |
-| BUI-GPU | 2–3 ms | 2–3 ms |
-| gpui | 63 ms | 53–76 ms |
+| BUI-CPU | **1.5 ms** | 1.5–2.5 ms |
+| BUI-GPU | 1.5 ms | 1.4–2.2 ms |
+| gpui | 56.8 ms | 54.2–71.6 ms |
 
-That is **26x faster** for BUI at 1000 cells. The gap is structural: gpui
+That is **~38x faster** by median (1.5 ms against 56.8 ms); comparing the
+slowest run of each, 28x. The gap is structural: gpui
 initialises a Vulkan device, uploads shaders and builds a cosmic-text font
 system before it can draw; BUI's software raster has nothing to initialise, and
 its font is embedded in the binary.
@@ -389,6 +390,9 @@ With vsync off, the frame rate shows what the design can actually do:
 | BUI-GPU | 57.2 fps | 50.6 fps | 39.7 fps |
 | gpui | 60.0 fps | 59.9 fps | 28.1 fps |
 
+(These are from the paced/uncapped sweep; the totals tables above are the
+authoritative ms-per-frame figures.)
+
 Two things to read here. First, BUI's **CPU raster barely moves** when uncapped
 (49.7 vs 49.7) — it is already CPU-bound, not vsync-bound. Second, gpui at 1000
 cells is also still at 60 uncapped, meaning its frame pacing is not the limit
@@ -398,19 +402,19 @@ either; it is genuinely fast enough. The limit only appears at 3000 cells.
 
 | App | Renderer | First frame | RSS | Private | Idle CPU |
 |---|---|---:|---:|---:|---:|
-| BUI form (divs) | CPU | **2 ms** | **10.1 MB** | **2.1 MB** | 0.10 % |
-| BUI form (divs) + GPU | GPU | 3 ms | 81.5 MB | 19.8 MB | 0.10 % |
-| BUI form (Blender widgets) | CPU | 3 ms | 10.4 MB | 2.1 MB | 0.10 % |
-| gpui form (divs) | GPU | 73 ms | 87.0 MB | 24.5 MB | 0.30 % |
+| BUI form (divs) | CPU | **1.5 ms** | **10.1 MB** | **2.1 MB** | 0.10 % |
+| BUI form (divs) + GPU | GPU | 1.6 ms | 81.5 MB | 19.8 MB | 0.10 % |
+| BUI form (Blender widgets) | CPU | 1.6 ms | 10.2 MB | 2.1 MB | 0.10 % |
+| gpui form (divs) | GPU | 58.9 ms | 87.1 MB | 24.6 MB | 0.30 % |
 
 This is the clearest result in the whole comparison. For a small tool window:
 
-- **BUI's CPU raster: 10 MB and 2 ms.**
-- **gpui: 87 MB and 73 ms.**
+- **BUI's CPU raster: 10 MB and 1.5 ms.**
+- **gpui: 87 MB and 59 ms.**
 
-That is **8.6x less memory and 36x faster start-up for identical pixels**. The
-cost of BUI's Blender widgets over plain divs is negligible (10.1 → 10.4 MB,
-2 → 3 ms).
+That is **8.6x less memory and ~39x faster start-up for identical pixels**. The
+cost of BUI's Blender widgets over plain divs is negligible (10.1 → 10.2 MB,
+1.5 → 1.6 ms).
 
 It also shows the price of BUI's own GPU renderer: turning it on costs 71 MB of
 RAM for a static form that gains nothing from it. **The CPU raster is the right
@@ -499,7 +503,8 @@ Being explicit about what could make these numbers wrong.
 
 | Risk | Status | Mitigation in this repo |
 |---|---|---|
-| **Desktop load** — the user's IDE and browser ran throughout | Real; load average 1–3 | 5 repetitions, interleaved, min–max spread reported |
+| **Desktop load** — the user's IDE and browser ran throughout | Real; load average 1–3 during the published run | 5 repetitions, interleaved, min–max spread reported |
+| **Third-party builds** — an unrelated compile can take all 8 threads | **Caught once, during a discarded run**: BUI-CPU read 21.91 ms/frame instead of 7.16, a 3x inflation, with load average 7.0 | The harness now records `load1` with every row; a contaminated `results.json` is detectable after the fact. Always check `uptime` before starting a sweep. |
 | **`powersave` governor** — clocks move under load | Real | Same as above; plug in and re-run for tighter absolutes |
 | **Wayland occlusion** — compositor withholds frame callbacks from covered windows | **Was a real bug here**; gpui rendered 0 fps for whole windows | Both frameworks pinned to X11; runs under 0.5 fps retried, then dropped |
 | **GPU counter attribution** — GLX submits via the X server | Verified | Hand-sampled the counter; 55–60 % observed matches 55 fps × 10.7 ms = 59 % |
@@ -546,7 +551,7 @@ different resources.**
 
 | If you are… | Choose | Because |
 |---|---|---|
-| Building a **tool window, settings panel or dialog** | **BUI, CPU raster** | 10 MB and 2 ms against 87 MB and 73 ms, same pixels |
+| Building a **tool window, settings panel or dialog** | **BUI, CPU raster** | 10 MB and 1.5 ms against 87 MB and 59 ms, same pixels |
 | Targeting **low-end or battery-powered machines** | **BUI, CPU raster** | no GPU device at all; 4.2x smaller footprint; 0 % idle |
 | Building a **large, continuously animated surface** and the GPU is free | **gpui** | holds 60 fps to 1000 cells; only 2 ms GPU per frame |
 | Building for **Windows** and want BUI's parallel raster | **BUI** | the band renderer engages there; Linux numbers understate it |
@@ -555,14 +560,14 @@ different resources.**
 
 Three findings worth carrying away:
 
-1. **BUI's GPU renderer is not "BUI, but faster".** It cuts CPU by 3.6x and
-   raises GPU by 10x; in total it is usually *more* expensive than gpui. Its
+1. **BUI's GPU renderer is not "BUI, but faster".** It cuts CPU by 3.9x and
+   raises GPU by 10.4x; in total it is usually *more* expensive than gpui. Its
    value is freeing the CPU, not saving the machine.
-2. **Frame rate hides everything.** At 100–1000 cells all three look identical
-   on screen (≈60 fps) while costing 2.8–23.9 ms of machine per frame.
+2. **Frame rate hides everything.** At 1000 cells all three look close on screen
+   (41–59 fps) while costing 7.2–24.0 ms of machine per frame.
 3. **Fixed costs dominate small UIs.** For a 360×260 window, the entire
-   difference between the frameworks is start-up and memory: 2 ms and 10 MB
-   against 73 ms and 87 MB. Throughput never enters into it.
+   difference between the frameworks is start-up and memory: 1.5 ms and 10 MB
+   against 59 ms and 87 MB. Throughput never enters into it.
 
 ---
 

@@ -43,16 +43,16 @@ machine. Every cell animating, medians of 5 runs:
 
 | Cells | BUI, CPU raster | BUI, GPU renderer | gpui |
 |---:|---:|---:|---:|
-| 100 | **2.78 ms** | 8.80 ms | 4.06 ms |
-| 1000 | **6.41 ms** | 23.91 ms | 12.27 ms |
-| 3000 | **12.49 ms** | 37.21 ms | 35.23 ms |
+| 100 | **2.73 ms** | 10.48 ms | 4.12 ms |
+| 1000 | **7.16 ms** | 23.97 ms | 13.20 ms |
+| 3000 | **15.13 ms** | 38.61 ms | 40.19 ms |
 
 | | BUI, CPU raster | BUI, GPU renderer | gpui |
 |---|---|---|---|
-| CPU per frame (1000 cells) | 6.41 ms | **2.82 ms** | 10.22 ms |
-| GPU per frame (1000 cells) | none used | 21.09 ms | **2.04 ms** |
+| CPU per frame (1000 cells) | 7.16 ms | **2.85 ms** | 11.17 ms |
+| GPU per frame (1000 cells) | none used | 21.12 ms | **2.03 ms** |
 | Resident memory (1000 cells) | **24 MB** | 90 MB | 102 MB |
-| Time to first frame | **2 ms** | 2–3 ms | 53–76 ms |
+| Time to first frame | **1.5 ms** | 1.5 ms | 54–72 ms |
 | Idle CPU | **0.10 %** | 0.10 % | 0.30 % |
 
 ## What that means
@@ -61,11 +61,11 @@ machine. Every cell animating, medians of 5 runs:
 different resources.**
 
 - **BUI's software raster is the cheapest in total, everywhere.** No GPU at all,
-  4.2x less memory than gpui, and 26x faster to first frame. It is the clear
+  4.2x less memory than gpui, and about 38x faster to first frame (median 1.5 ms against 56.8 ms). It is the clear
   choice for tool windows, dialogs and low-end machines. Its weakness is that on
   Linux it rasterizes **single-threaded** (the parallel band renderer is
   `#ifdef _WIN32`), so its frame rate falls away as scenes grow.
-- **BUI's GPU renderer wins CPU by 3.6x but spends 10x more GPU time.** In total
+- **BUI's GPU renderer wins CPU by 3.9x but spends 10x more GPU time.** In total
   it is usually *more* expensive than gpui. It frees the CPU; it does not save
   the machine. Turn it on for large, continuously animated surfaces, not by
   default.
@@ -74,9 +74,9 @@ different resources.**
   costs: a Vulkan device and cosmic-text mean ~90–130 MB and 53–76 ms before
   anything appears.
 
-Two numbers worth remembering. For a small tool window, **BUI: 10 MB and 2 ms;
-gpui: 87 MB and 73 ms** — for identical pixels. And at 1000 cells all three look
-identical on screen (≈60 fps) while costing 2.8–23.9 ms of machine per frame,
+Two numbers worth remembering. For a small tool window, **BUI: 10 MB and 1.5 ms;
+gpui: 87 MB and 59 ms** — for identical pixels. And at 1000 cells all three look
+close on screen (41–59 fps) while costing 7.2–24.0 ms of machine per frame,
 which is why this harness reports milliseconds and not just frame rate.
 
 📄 **[COMPARISON.md](COMPARISON.md)** has the complete analysis: every table,

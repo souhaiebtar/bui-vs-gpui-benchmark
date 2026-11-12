@@ -82,6 +82,14 @@ def binary_checksums() -> list[str]:
     return lines
 
 
+def load_average() -> float | None:
+    """1-minute load average, so a run taken on a busy machine is detectable."""
+    try:
+        return float(Path("/proc/loadavg").read_text().split()[0])
+    except (OSError, ValueError, IndexError):
+        return None
+
+
 def run_one(name: str, args: list[str], timeout: float = 180.0) -> dict | None:
     """Start one binary, read its JSON line, return it parsed."""
     cmd = [str(binary(name)), *args]
@@ -107,6 +115,10 @@ def run_one(name: str, args: list[str], timeout: float = 180.0) -> dict | None:
         if line.startswith("{") and line.endswith("}"):
             row = json.loads(line)
             row["wall_s"] = time.perf_counter() - started
+            # Record the machine's load with the measurement, so a sweep taken
+            # while someone else was compiling can be spotted later instead of
+            # being silently believed.
+            row["load1"] = load_average()
             return row
     tail = (out.stderr or out.stdout).strip().splitlines()[-6:]
     print(f"  ! {name} {args} produced no result:\n    " + "\n    ".join(tail), file=sys.stderr)

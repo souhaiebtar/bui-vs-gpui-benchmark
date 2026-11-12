@@ -4,11 +4,11 @@
   "warmup": 3.0,
   "seconds": 10.0,
   "checksums": [
-   "ed0aa489efef36d8f425302d0275c732  grid-scene-bui",
-   "1843f03c8abc8bca5e3e7824bdb4982a  grid-scene-gpui",
-   "e837da9bed384e1fa92f07ac4f05aee8  settings-form-bui",
-   "cc607e056b380951ecfb10f697a8e963  settings-form-bui-native",
-   "de64ed3dde09b3d6bdbef51e13ff893f  settings-form-gpui"
+   "45525a6bbebb28d8b684a987eaa9f473  grid-scene-bui",
+   "a639a5e98ab754e6b37a088a9bee6bf8  grid-scene-gpui",
+   "901c11228ff4d2d67d38e058fd2fe198  settings-form-bui",
+   "9d836cbae5c41168a22adb2db21c759c  settings-form-bui-native",
+   "ca90972c855d7bc1df77ae8404a3f714  settings-form-gpui"
   ]
  },
  "rows": [
@@ -18,179 +18,28 @@
    "uncapped": false,
    "cells": 100,
    "mode": "anim",
-   "fps": 49.7,
-   "cpu_pct": 13.8,
-   "cpu_ms_per_frame": 2.783,
+   "fps": 49.8,
+   "cpu_pct": 13.6,
+   "cpu_ms_per_frame": 2.729,
    "ws_mb": 19.2,
    "peak_ws_mb": 19.2,
    "private_mb": 11.0,
    "gpu_ms_per_frame": null,
-   "first_frame_ms": 2,
-   "wall_s": 13.772410692999983,
+   "first_frame_ms": 2.5,
+   "frames_measured": 687,
+   "wall_s": 13.770758328999364,
    "_spread": {
     "fps": [
-     49.5,
-     51.0
+     33.9,
+     49.9
     ],
     "cpu_pct": [
-     11.2,
-     14.2
+     13.3,
+     17.8
     ],
     "cpu_ms_per_frame": [
-     2.197,
-     2.861
-    ],
-    "ws_mb": [
-     19.1,
-     19.4
-    ],
-    "peak_ws_mb": [
-     19.1,
-     19.4
-    ],
-    "private_mb": [
-     11.0,
-     11.1
-    ],
-    "first_frame_ms": [
-     1,
-     3
-    ]
-   },
-   "_reps": 5,
-   "example": 1
-  },
-  {
-   "app": "bui (GPU renderer)",
-   "renderer": "gpu",
-   "uncapped": false,
-   "cells": 100,
-   "mode": "anim",
-   "fps": 57.1,
-   "cpu_pct": 3.5,
-   "cpu_ms_per_frame": 0.622,
-   "ws_mb": 84.4,
-   "peak_ws_mb": 84.4,
-   "private_mb": 22.8,
-   "gpu_ms_per_frame": 8.18,
-   "first_frame_ms": 3,
-   "wall_s": 13.77425022099942,
-   "_spread": {
-    "fps": [
-     54.5,
-     57.3
-    ],
-    "cpu_pct": [
-     3.3,
-     3.7
-    ],
-    "cpu_ms_per_frame": [
-     0.583,
-     0.641
-    ],
-    "ws_mb": [
-     84.3,
-     84.8
-    ],
-    "peak_ws_mb": [
-     84.3,
-     84.8
-    ],
-    "private_mb": [
-     22.7,
-     22.9
-    ],
-    "first_frame_ms": [
-     2,
-     3
-    ],
-    "gpu_ms_per_frame": [
-     7.22,
-     8.52
-    ]
-   },
-   "_reps": 5,
-   "example": 1
-  },
-  {
-   "app": "gpui (GPU, Vulkan)",
-   "renderer": "gpu",
-   "uncapped": false,
-   "cells": 100,
-   "mode": "anim",
-   "fps": 59.9,
-   "cpu_pct": 12.4,
-   "cpu_ms_per_frame": 2.064,
-   "ws_mb": 88.1,
-   "peak_ws_mb": 88.1,
-   "private_mb": 25.7,
-   "gpu_ms_per_frame": 2.0,
-   "first_frame_ms": 72,
-   "wall_s": 13.827741987000081,
-   "_spread": {
-    "fps": [
-     59.9,
-     60.0
-    ],
-    "cpu_pct": [
-     10.8,
-     13.0
-    ],
-    "cpu_ms_per_frame": [
-     1.792,
-     2.164
-    ],
-    "ws_mb": [
-     88.0,
-     88.2
-    ],
-    "peak_ws_mb": [
-     88.0,
-     88.2
-    ],
-    "private_mb": [
-     25.6,
-     25.7
-    ],
-    "first_frame_ms": [
-     53,
-     78
-    ],
-    "gpu_ms_per_frame": [
-     1.78,
-     2.07
-    ]
-   },
-   "_reps": 5,
-   "example": 1
-  },
-  {
-   "app": "bui (CPU raster)",
-   "renderer": "cpu",
-   "uncapped": true,
-   "cells": 100,
-   "mode": "anim",
-   "fps": 49.7,
-   "cpu_pct": 14.0,
-   "cpu_ms_per_frame": 2.817,
-   "ws_mb": 19.2,
-   "peak_ws_mb": 19.2,
-   "private_mb": 11.0,
-   "gpu_ms_per_frame": null,
-   "first_frame_ms": 3,
-   "wall_s": 13.770560403999298,
-   "_spread": {
-    "fps": [
-     49.6,
-     49.8
-    ],
-    "cpu_pct": [
-     13.6,
-     14.2
-    ],
-    "cpu_ms_per_frame": [
-     2.735,
-     2.852
+     2.657,
+     5.262
     ],
     "ws_mb": [
      19.1,
@@ -205,8 +54,8 @@
      11.0
     ],
     "first_frame_ms": [
-     2,
-     3
+     1.4,
+     4.5
     ]
    },
    "_reps": 5,
@@ -215,37 +64,38 @@
   {
    "app": "bui (GPU renderer)",
    "renderer": "gpu",
-   "uncapped": true,
+   "uncapped": false,
    "cells": 100,
    "mode": "anim",
-   "fps": 57.2,
-   "cpu_pct": 3.6,
-   "cpu_ms_per_frame": 0.626,
-   "ws_mb": 84.5,
-   "peak_ws_mb": 84.5,
+   "fps": 57.3,
+   "cpu_pct": 3.7,
+   "cpu_ms_per_frame": 0.637,
+   "ws_mb": 84.6,
+   "peak_ws_mb": 84.6,
    "private_mb": 22.8,
-   "gpu_ms_per_frame": 8.37,
-   "first_frame_ms": 3,
-   "wall_s": 13.772952013999202,
+   "gpu_ms_per_frame": 9.84,
+   "first_frame_ms": 1.7,
+   "frames_measured": 788,
+   "wall_s": 13.772466591000011,
    "_spread": {
     "fps": [
-     57.1,
+     51.0,
      57.3
     ],
     "cpu_pct": [
      3.6,
-     3.7
+     6.0
     ],
     "cpu_ms_per_frame": [
-     0.62,
-     0.641
+     0.631,
+     1.175
     ],
     "ws_mb": [
-     84.5,
+     84.3,
      84.7
     ],
     "peak_ws_mb": [
-     84.5,
+     84.3,
      84.7
     ],
     "private_mb": [
@@ -253,12 +103,12 @@
      22.9
     ],
     "first_frame_ms": [
-     2,
-     3
+     1.4,
+     9.7
     ],
     "gpu_ms_per_frame": [
-     8.2,
-     8.61
+     7.69,
+     10.71
     ]
    },
    "_reps": 5,
@@ -267,30 +117,31 @@
   {
    "app": "gpui (GPU, Vulkan)",
    "renderer": "gpu",
-   "uncapped": true,
+   "uncapped": false,
    "cells": 100,
    "mode": "anim",
    "fps": 60.0,
-   "cpu_pct": 12.2,
-   "cpu_ms_per_frame": 2.037,
-   "ws_mb": 88.0,
-   "peak_ws_mb": 88.0,
+   "cpu_pct": 13.0,
+   "cpu_ms_per_frame": 2.162,
+   "ws_mb": 88.1,
+   "peak_ws_mb": 88.1,
    "private_mb": 25.7,
-   "gpu_ms_per_frame": 2.06,
-   "first_frame_ms": 72,
-   "wall_s": 13.84197600799962,
+   "gpu_ms_per_frame": 1.96,
+   "first_frame_ms": 71.6,
+   "frames_measured": 826,
+   "wall_s": 13.841281549000087,
    "_spread": {
     "fps": [
-     59.9,
+     58.8,
      60.0
     ],
     "cpu_pct": [
-     11.6,
-     13.3
+     11.7,
+     28.8
     ],
     "cpu_ms_per_frame": [
-     1.931,
-     2.209
+     1.946,
+     4.9
     ],
     "ws_mb": [
      87.9,
@@ -305,12 +156,167 @@
      25.7
     ],
     "first_frame_ms": [
-     69,
-     82
+     69.3,
+     255.3
     ],
     "gpu_ms_per_frame": [
-     2.0,
-     2.11
+     1.86,
+     2.73
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "bui (CPU raster)",
+   "renderer": "cpu",
+   "uncapped": true,
+   "cells": 100,
+   "mode": "anim",
+   "fps": 50.9,
+   "cpu_pct": 11.3,
+   "cpu_ms_per_frame": 2.216,
+   "ws_mb": 19.2,
+   "peak_ws_mb": 19.2,
+   "private_mb": 11.0,
+   "gpu_ms_per_frame": null,
+   "first_frame_ms": 2.3,
+   "frames_measured": 437,
+   "wall_s": 14.302787926000747,
+   "_spread": {
+    "fps": [
+     30.4,
+     51.0
+    ],
+    "cpu_pct": [
+     11.1,
+     17.9
+    ],
+    "cpu_ms_per_frame": [
+     2.186,
+     5.89
+    ],
+    "ws_mb": [
+     18.9,
+     19.3
+    ],
+    "peak_ws_mb": [
+     18.9,
+     19.3
+    ],
+    "private_mb": [
+     11.0,
+     11.0
+    ],
+    "first_frame_ms": [
+     1.5,
+     3.8
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "bui (GPU renderer)",
+   "renderer": "gpu",
+   "uncapped": true,
+   "cells": 100,
+   "mode": "anim",
+   "fps": 57.1,
+   "cpu_pct": 3.3,
+   "cpu_ms_per_frame": 0.571,
+   "ws_mb": 84.4,
+   "peak_ws_mb": 84.4,
+   "private_mb": 22.7,
+   "gpu_ms_per_frame": 7.22,
+   "first_frame_ms": 1.4,
+   "frames_measured": 741,
+   "wall_s": 13.785615331999907,
+   "_spread": {
+    "fps": [
+     55.3,
+     57.2
+    ],
+    "cpu_pct": [
+     3.2,
+     4.3
+    ],
+    "cpu_ms_per_frame": [
+     0.569,
+     0.78
+    ],
+    "ws_mb": [
+     84.4,
+     84.8
+    ],
+    "peak_ws_mb": [
+     84.4,
+     84.8
+    ],
+    "private_mb": [
+     22.7,
+     22.8
+    ],
+    "first_frame_ms": [
+     1.4,
+     4.8
+    ],
+    "gpu_ms_per_frame": [
+     7.2,
+     7.3
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "gpui (GPU, Vulkan)",
+   "renderer": "gpu",
+   "uncapped": true,
+   "cells": 100,
+   "mode": "anim",
+   "fps": 60.0,
+   "cpu_pct": 10.7,
+   "cpu_ms_per_frame": 1.778,
+   "ws_mb": 88.2,
+   "peak_ws_mb": 88.2,
+   "private_mb": 25.7,
+   "gpu_ms_per_frame": 1.78,
+   "first_frame_ms": 55.3,
+   "frames_measured": 827,
+   "wall_s": 13.826757221000662,
+   "_spread": {
+    "fps": [
+     60.0,
+     60.0
+    ],
+    "cpu_pct": [
+     10.5,
+     10.9
+    ],
+    "cpu_ms_per_frame": [
+     1.749,
+     1.825
+    ],
+    "ws_mb": [
+     88.0,
+     88.3
+    ],
+    "peak_ws_mb": [
+     88.0,
+     88.3
+    ],
+    "private_mb": [
+     25.6,
+     25.7
+    ],
+    "first_frame_ms": [
+     52.2,
+     58.6
+    ],
+    "gpu_ms_per_frame": [
+     1.77,
+     1.78
     ]
    },
    "_reps": 5,
@@ -322,34 +328,35 @@
    "uncapped": false,
    "cells": 100,
    "mode": "one",
-   "fps": 53.0,
-   "cpu_pct": 11.0,
-   "cpu_ms_per_frame": 2.081,
-   "ws_mb": 18.1,
-   "peak_ws_mb": 18.4,
+   "fps": 53.8,
+   "cpu_pct": 9.4,
+   "cpu_ms_per_frame": 1.741,
+   "ws_mb": 18.0,
+   "peak_ws_mb": 18.3,
    "private_mb": 10.2,
    "gpu_ms_per_frame": null,
-   "first_frame_ms": 2,
-   "wall_s": 13.770447692999369,
+   "first_frame_ms": 1.5,
+   "frames_measured": 744,
+   "wall_s": 13.77310788900013,
    "_spread": {
     "fps": [
-     52.9,
-     53.1
+     53.7,
+     54.0
     ],
     "cpu_pct": [
-     11.0,
-     11.2
+     9.2,
+     9.5
     ],
     "cpu_ms_per_frame": [
-     2.066,
-     2.117
+     1.704,
+     1.767
     ],
     "ws_mb": [
-     18.0,
-     18.2
+     17.9,
+     18.1
     ],
     "peak_ws_mb": [
-     18.3,
+     18.2,
      18.4
     ],
     "private_mb": [
@@ -357,8 +364,8 @@
      10.2
     ],
     "first_frame_ms": [
-     2,
-     4
+     1.4,
+     1.6
     ]
    },
    "_reps": 5,
@@ -370,47 +377,48 @@
    "uncapped": false,
    "cells": 100,
    "mode": "one",
-   "fps": 57.3,
-   "cpu_pct": 3.5,
-   "cpu_ms_per_frame": 0.611,
-   "ws_mb": 83.6,
-   "peak_ws_mb": 84.0,
+   "fps": 57.2,
+   "cpu_pct": 3.1,
+   "cpu_ms_per_frame": 0.542,
+   "ws_mb": 83.5,
+   "peak_ws_mb": 83.8,
    "private_mb": 22.1,
-   "gpu_ms_per_frame": 8.37,
-   "first_frame_ms": 3,
-   "wall_s": 13.776574145000268,
+   "gpu_ms_per_frame": 7.17,
+   "first_frame_ms": 1.4,
+   "frames_measured": 788,
+   "wall_s": 13.777394210000239,
    "_spread": {
     "fps": [
-     57.3,
+     57.1,
      57.3
     ],
     "cpu_pct": [
-     3.5,
-     3.5
+     3.1,
+     3.2
     ],
     "cpu_ms_per_frame": [
-     0.609,
-     0.615
+     0.538,
+     0.554
     ],
     "ws_mb": [
-     83.4,
-     83.8
+     83.5,
+     83.6
     ],
     "peak_ws_mb": [
-     83.7,
-     84.1
+     83.8,
+     83.9
     ],
     "private_mb": [
      22.1,
-     22.2
+     22.1
     ],
     "first_frame_ms": [
-     2,
-     3
+     1.4,
+     2.2
     ],
     "gpu_ms_per_frame": [
-     8.08,
-     8.86
+     7.17,
+     7.18
     ]
    },
    "_reps": 5,
@@ -423,46 +431,47 @@
    "cells": 100,
    "mode": "one",
    "fps": 60.0,
-   "cpu_pct": 8.2,
-   "cpu_ms_per_frame": 1.362,
-   "ws_mb": 88.0,
-   "peak_ws_mb": 88.0,
+   "cpu_pct": 6.9,
+   "cpu_ms_per_frame": 1.143,
+   "ws_mb": 88.1,
+   "peak_ws_mb": 88.1,
    "private_mb": 25.6,
-   "gpu_ms_per_frame": 2.0,
-   "first_frame_ms": 76,
-   "wall_s": 13.845513838000443,
+   "gpu_ms_per_frame": 1.78,
+   "first_frame_ms": 54.2,
+   "frames_measured": 826,
+   "wall_s": 13.826051879999795,
    "_spread": {
     "fps": [
-     59.9,
+     60.0,
      60.0
     ],
     "cpu_pct": [
-     7.6,
-     9.5
+     6.8,
+     7.4
     ],
     "cpu_ms_per_frame": [
-     1.268,
-     1.583
+     1.135,
+     1.227
     ],
     "ws_mb": [
-     88.0,
+     87.9,
      88.1
     ],
     "peak_ws_mb": [
-     88.0,
+     87.9,
      88.1
     ],
     "private_mb": [
      25.6,
-     25.7
+     25.6
     ],
     "first_frame_ms": [
-     63,
-     103
+     52.2,
+     55.5
     ],
     "gpu_ms_per_frame": [
-     1.86,
-     2.28
+     1.77,
+     1.79
     ]
    },
    "_reps": 5,
@@ -477,12 +486,13 @@
    "fps": 0.0,
    "cpu_pct": 0.1,
    "cpu_ms_per_frame": 0.0,
-   "ws_mb": 17.1,
-   "peak_ws_mb": 17.1,
+   "ws_mb": 17.2,
+   "peak_ws_mb": 17.2,
    "private_mb": 9.0,
    "gpu_ms_per_frame": null,
-   "first_frame_ms": 2,
-   "wall_s": 14.27346975799992,
+   "first_frame_ms": 1.4,
+   "frames_measured": 2,
+   "wall_s": 14.276035915000648,
    "_spread": {
     "fps": [
      0.0,
@@ -498,19 +508,19 @@
     ],
     "ws_mb": [
      17.1,
-     17.3
+     17.2
     ],
     "peak_ws_mb": [
      17.1,
-     17.3
+     17.2
     ],
     "private_mb": [
      9.0,
      9.0
     ],
     "first_frame_ms": [
-     1,
-     2
+     1.4,
+     1.5
     ]
    },
    "_reps": 5,
@@ -529,8 +539,9 @@
    "peak_ws_mb": 82.7,
    "private_mb": 21.0,
    "gpu_ms_per_frame": 0.0,
-   "first_frame_ms": 2,
-   "wall_s": 14.276536238000517,
+   "first_frame_ms": 2.5,
+   "frames_measured": 2,
+   "wall_s": 14.28080067999963,
    "_spread": {
     "fps": [
      0.0,
@@ -546,19 +557,19 @@
     ],
     "ws_mb": [
      82.6,
-     83.0
+     82.8
     ],
     "peak_ws_mb": [
      82.6,
-     83.0
+     82.8
     ],
     "private_mb": [
      21.0,
      21.0
     ],
     "first_frame_ms": [
-     2,
-     3
+     1.6,
+     2.7
     ],
     "gpu_ms_per_frame": [
      0.0,
@@ -575,14 +586,15 @@
    "cells": 100,
    "mode": "idle",
    "fps": 0.0,
-   "cpu_pct": 0.3,
+   "cpu_pct": 0.2,
    "cpu_ms_per_frame": 0.0,
-   "ws_mb": 88.0,
-   "peak_ws_mb": 88.0,
+   "ws_mb": 88.1,
+   "peak_ws_mb": 88.1,
    "private_mb": 25.6,
    "gpu_ms_per_frame": 0.0,
-   "first_frame_ms": 56,
-   "wall_s": 14.344682652999836,
+   "first_frame_ms": 58.3,
+   "frames_measured": 2,
+   "wall_s": 14.328960905999338,
    "_spread": {
     "fps": [
      0.0,
@@ -590,27 +602,27 @@
     ],
     "cpu_pct": [
      0.2,
-     0.3
+     0.2
     ],
     "cpu_ms_per_frame": [
      0.0,
      0.0
     ],
     "ws_mb": [
-     87.9,
-     88.2
+     88.0,
+     88.1
     ],
     "peak_ws_mb": [
-     87.9,
-     88.2
+     88.0,
+     88.1
     ],
     "private_mb": [
      25.6,
      25.7
     ],
     "first_frame_ms": [
-     53,
-     82
+     53.2,
+     62.7
     ],
     "gpu_ms_per_frame": [
      0.0,
@@ -626,43 +638,44 @@
    "uncapped": false,
    "cells": 1000,
    "mode": "anim",
-   "fps": 42.0,
-   "cpu_pct": 27.0,
-   "cpu_ms_per_frame": 6.411,
+   "fps": 41.0,
+   "cpu_pct": 29.4,
+   "cpu_ms_per_frame": 7.161,
    "ws_mb": 24.2,
    "peak_ws_mb": 24.2,
    "private_mb": 16.0,
    "gpu_ms_per_frame": null,
-   "first_frame_ms": 2,
-   "wall_s": 13.7728213040009,
+   "first_frame_ms": 1.6,
+   "frames_measured": 564,
+   "wall_s": 13.77334800799963,
    "_spread": {
     "fps": [
-     41.9,
-     42.1
+     40.0,
+     41.9
     ],
     "cpu_pct": [
-     26.9,
-     27.2
+     27.2,
+     31.0
     ],
     "cpu_ms_per_frame": [
-     6.395,
-     6.477
+     6.499,
+     7.736
     ],
     "ws_mb": [
      24.1,
-     24.2
+     24.3
     ],
     "peak_ws_mb": [
      24.1,
-     24.2
+     24.3
     ],
     "private_mb": [
      16.0,
      16.0
     ],
     "first_frame_ms": [
-     1,
-     2
+     1.4,
+     2.1
     ]
    },
    "_reps": 5,
@@ -674,47 +687,48 @@
    "uncapped": false,
    "cells": 1000,
    "mode": "anim",
-   "fps": 50.7,
-   "cpu_pct": 14.3,
-   "cpu_ms_per_frame": 2.816,
+   "fps": 50.5,
+   "cpu_pct": 14.4,
+   "cpu_ms_per_frame": 2.846,
    "ws_mb": 90.4,
    "peak_ws_mb": 90.4,
    "private_mb": 28.6,
-   "gpu_ms_per_frame": 21.09,
-   "first_frame_ms": 2,
-   "wall_s": 13.776598133999869,
+   "gpu_ms_per_frame": 21.12,
+   "first_frame_ms": 1.5,
+   "frames_measured": 695,
+   "wall_s": 13.776544395000201,
    "_spread": {
     "fps": [
-     50.5,
-     50.7
+     48.8,
+     50.6
     ],
     "cpu_pct": [
      14.1,
-     14.5
+     18.0
     ],
     "cpu_ms_per_frame": [
-     2.787,
-     2.878
+     2.777,
+     3.682
     ],
     "ws_mb": [
      90.2,
-     90.5
+     90.6
     ],
     "peak_ws_mb": [
      90.2,
-     90.5
+     90.6
     ],
     "private_mb": [
      28.4,
      28.7
     ],
     "first_frame_ms": [
-     2,
-     3
+     1.4,
+     2.6
     ],
     "gpu_ms_per_frame": [
-     21.03,
-     21.38
+     21.02,
+     21.22
     ]
    },
    "_reps": 5,
@@ -726,195 +740,44 @@
    "uncapped": false,
    "cells": 1000,
    "mode": "anim",
-   "fps": 59.8,
-   "cpu_pct": 61.2,
-   "cpu_ms_per_frame": 10.225,
-   "ws_mb": 102.5,
-   "peak_ws_mb": 102.5,
-   "private_mb": 40.0,
-   "gpu_ms_per_frame": 2.04,
-   "first_frame_ms": 53,
-   "wall_s": 13.826402983999287,
+   "fps": 58.8,
+   "cpu_pct": 65.7,
+   "cpu_ms_per_frame": 11.166,
+   "ws_mb": 102.4,
+   "peak_ws_mb": 102.4,
+   "private_mb": 39.7,
+   "gpu_ms_per_frame": 2.03,
+   "first_frame_ms": 54.3,
+   "frames_measured": 823,
+   "wall_s": 13.830122516999836,
    "_spread": {
     "fps": [
-     59.8,
+     53.6,
      59.9
     ],
     "cpu_pct": [
-     61.0,
-     61.6
+     61.5,
+     71.2
     ],
     "cpu_ms_per_frame": [
-     10.197,
-     10.296
+     10.262,
+     13.273
     ],
     "ws_mb": [
-     102.2,
-     102.6
+     102.1,
+     102.5
     ],
     "peak_ws_mb": [
-     102.2,
-     102.6
+     102.1,
+     102.5
     ],
     "private_mb": [
      39.7,
      40.0
     ],
     "first_frame_ms": [
-     53,
-     59
-    ],
-    "gpu_ms_per_frame": [
-     2.03,
-     2.05
-    ]
-   },
-   "_reps": 5,
-   "example": 1
-  },
-  {
-   "app": "bui (CPU raster)",
-   "renderer": "cpu",
-   "uncapped": true,
-   "cells": 1000,
-   "mode": "anim",
-   "fps": 41.6,
-   "cpu_pct": 27.8,
-   "cpu_ms_per_frame": 6.682,
-   "ws_mb": 23.3,
-   "peak_ws_mb": 24.2,
-   "private_mb": 15.1,
-   "gpu_ms_per_frame": null,
-   "first_frame_ms": 1,
-   "wall_s": 13.772664669000733,
-   "_spread": {
-    "fps": [
-     41.6,
-     41.7
-    ],
-    "cpu_pct": [
-     27.7,
-     28.2
-    ],
-    "cpu_ms_per_frame": [
-     6.645,
-     6.766
-    ],
-    "ws_mb": [
-     23.3,
-     23.4
-    ],
-    "peak_ws_mb": [
-     24.1,
-     24.2
-    ],
-    "private_mb": [
-     15.0,
-     15.1
-    ],
-    "first_frame_ms": [
-     1,
-     2
-    ]
-   },
-   "_reps": 5,
-   "example": 1
-  },
-  {
-   "app": "bui (GPU renderer)",
-   "renderer": "gpu",
-   "uncapped": true,
-   "cells": 1000,
-   "mode": "anim",
-   "fps": 50.6,
-   "cpu_pct": 14.4,
-   "cpu_ms_per_frame": 2.843,
-   "ws_mb": 90.4,
-   "peak_ws_mb": 90.4,
-   "private_mb": 28.6,
-   "gpu_ms_per_frame": 21.08,
-   "first_frame_ms": 2,
-   "wall_s": 13.777099466000436,
-   "_spread": {
-    "fps": [
-     50.4,
-     50.9
-    ],
-    "cpu_pct": [
-     14.1,
-     14.4
-    ],
-    "cpu_ms_per_frame": [
-     2.768,
-     2.861
-    ],
-    "ws_mb": [
-     90.2,
-     90.5
-    ],
-    "peak_ws_mb": [
-     90.2,
-     90.5
-    ],
-    "private_mb": [
-     28.4,
-     28.7
-    ],
-    "first_frame_ms": [
-     1,
-     3
-    ],
-    "gpu_ms_per_frame": [
-     21.03,
-     21.37
-    ]
-   },
-   "_reps": 5,
-   "example": 1
-  },
-  {
-   "app": "gpui (GPU, Vulkan)",
-   "renderer": "gpu",
-   "uncapped": true,
-   "cells": 1000,
-   "mode": "anim",
-   "fps": 59.9,
-   "cpu_pct": 61.3,
-   "cpu_ms_per_frame": 10.236,
-   "ws_mb": 102.2,
-   "peak_ws_mb": 102.2,
-   "private_mb": 39.9,
-   "gpu_ms_per_frame": 2.04,
-   "first_frame_ms": 72,
-   "wall_s": 13.845089360000202,
-   "_spread": {
-    "fps": [
-     59.6,
-     59.9
-    ],
-    "cpu_pct": [
-     60.9,
-     61.8
-    ],
-    "cpu_ms_per_frame": [
-     10.173,
-     10.354
-    ],
-    "ws_mb": [
-     102.1,
-     102.3
-    ],
-    "peak_ws_mb": [
-     102.1,
-     102.3
-    ],
-    "private_mb": [
-     39.8,
-     39.9
-    ],
-    "first_frame_ms": [
-     52,
-     80
+     53.5,
+     66.9
     ],
     "gpu_ms_per_frame": [
      2.03,
@@ -927,46 +790,202 @@
   {
    "app": "bui (CPU raster)",
    "renderer": "cpu",
+   "uncapped": true,
+   "cells": 1000,
+   "mode": "anim",
+   "fps": 40.3,
+   "cpu_pct": 30.8,
+   "cpu_ms_per_frame": 7.629,
+   "ws_mb": 23.3,
+   "peak_ws_mb": 24.1,
+   "private_mb": 15.1,
+   "gpu_ms_per_frame": null,
+   "first_frame_ms": 1.5,
+   "frames_measured": 541,
+   "wall_s": 13.771680503001335,
+   "_spread": {
+    "fps": [
+     39.7,
+     41.7
+    ],
+    "cpu_pct": [
+     27.8,
+     31.7
+    ],
+    "cpu_ms_per_frame": [
+     6.687,
+     7.979
+    ],
+    "ws_mb": [
+     23.2,
+     23.4
+    ],
+    "peak_ws_mb": [
+     24.0,
+     24.2
+    ],
+    "private_mb": [
+     15.1,
+     15.1
+    ],
+    "first_frame_ms": [
+     1.5,
+     2.6
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "bui (GPU renderer)",
+   "renderer": "gpu",
+   "uncapped": true,
+   "cells": 1000,
+   "mode": "anim",
+   "fps": 50.5,
+   "cpu_pct": 14.3,
+   "cpu_ms_per_frame": 2.839,
+   "ws_mb": 90.4,
+   "peak_ws_mb": 90.4,
+   "private_mb": 28.6,
+   "gpu_ms_per_frame": 21.08,
+   "first_frame_ms": 1.5,
+   "frames_measured": 688,
+   "wall_s": 13.772899199999301,
+   "_spread": {
+    "fps": [
+     49.9,
+     50.6
+    ],
+    "cpu_pct": [
+     14.2,
+     16.1
+    ],
+    "cpu_ms_per_frame": [
+     2.804,
+     3.223
+    ],
+    "ws_mb": [
+     90.3,
+     90.5
+    ],
+    "peak_ws_mb": [
+     90.3,
+     90.5
+    ],
+    "private_mb": [
+     28.4,
+     28.6
+    ],
+    "first_frame_ms": [
+     1.4,
+     2.5
+    ],
+    "gpu_ms_per_frame": [
+     20.99,
+     21.15
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "gpui (GPU, Vulkan)",
+   "renderer": "gpu",
+   "uncapped": true,
+   "cells": 1000,
+   "mode": "anim",
+   "fps": 59.7,
+   "cpu_pct": 64.9,
+   "cpu_ms_per_frame": 11.091,
+   "ws_mb": 102.2,
+   "peak_ws_mb": 102.2,
+   "private_mb": 39.9,
+   "gpu_ms_per_frame": 2.04,
+   "first_frame_ms": 54.4,
+   "frames_measured": 818,
+   "wall_s": 13.831754122000348,
+   "_spread": {
+    "fps": [
+     58.5,
+     59.8
+    ],
+    "cpu_pct": [
+     60.9,
+     68.7
+    ],
+    "cpu_ms_per_frame": [
+     10.191,
+     11.551
+    ],
+    "ws_mb": [
+     102.1,
+     102.6
+    ],
+    "peak_ws_mb": [
+     102.1,
+     102.6
+    ],
+    "private_mb": [
+     39.7,
+     40.1
+    ],
+    "first_frame_ms": [
+     53.2,
+     59.4
+    ],
+    "gpu_ms_per_frame": [
+     2.02,
+     2.05
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "bui (CPU raster)",
+   "renderer": "cpu",
    "uncapped": false,
    "cells": 1000,
    "mode": "one",
-   "fps": 44.4,
-   "cpu_pct": 25.2,
-   "cpu_ms_per_frame": 5.679,
-   "ws_mb": 24.0,
-   "peak_ws_mb": 24.0,
+   "fps": 42.6,
+   "cpu_pct": 28.7,
+   "cpu_ms_per_frame": 6.72,
+   "ws_mb": 24.1,
+   "peak_ws_mb": 24.1,
    "private_mb": 15.9,
    "gpu_ms_per_frame": null,
-   "first_frame_ms": 2,
-   "wall_s": 13.773990059000425,
+   "first_frame_ms": 1.5,
+   "frames_measured": 611,
+   "wall_s": 13.77399253999829,
    "_spread": {
     "fps": [
-     44.4,
-     44.4
+     41.7,
+     44.3
     ],
     "cpu_pct": [
-     25.1,
-     25.3
+     25.4,
+     29.9
     ],
     "cpu_ms_per_frame": [
-     5.662,
-     5.688
+     5.727,
+     7.175
     ],
     "ws_mb": [
-     23.9,
-     24.1
+     23.8,
+     24.3
     ],
     "peak_ws_mb": [
-     23.9,
-     24.1
+     23.8,
+     24.3
     ],
     "private_mb": [
      15.9,
      15.9
     ],
     "first_frame_ms": [
-     1,
-     2
+     1.4,
+     2.6
     ]
    },
    "_reps": 5,
@@ -978,47 +997,48 @@
    "uncapped": false,
    "cells": 1000,
    "mode": "one",
-   "fps": 51.0,
-   "cpu_pct": 13.5,
-   "cpu_ms_per_frame": 2.652,
-   "ws_mb": 90.1,
-   "peak_ws_mb": 90.1,
-   "private_mb": 28.5,
-   "gpu_ms_per_frame": 21.04,
-   "first_frame_ms": 3,
-   "wall_s": 13.775903014000505,
+   "fps": 50.1,
+   "cpu_pct": 15.8,
+   "cpu_ms_per_frame": 3.157,
+   "ws_mb": 90.3,
+   "peak_ws_mb": 90.3,
+   "private_mb": 28.6,
+   "gpu_ms_per_frame": 21.06,
+   "first_frame_ms": 1.4,
+   "frames_measured": 701,
+   "wall_s": 13.77413051000076,
    "_spread": {
     "fps": [
-     50.9,
-     51.1
+     49.5,
+     50.9
     ],
     "cpu_pct": [
-     13.4,
-     13.6
+     13.6,
+     16.6
     ],
     "cpu_ms_per_frame": [
-     2.631,
-     2.657
+     2.672,
+     3.346
     ],
     "ws_mb": [
      90.0,
-     90.3
+     90.4
     ],
     "peak_ws_mb": [
      90.0,
-     90.3
+     90.4
     ],
     "private_mb": [
-     28.5,
+     28.4,
      28.6
     ],
     "first_frame_ms": [
-     1,
-     3
+     1.4,
+     2.7
     ],
     "gpu_ms_per_frame": [
-     20.98,
-     21.14
+     20.95,
+     21.35
     ]
    },
    "_reps": 5,
@@ -1030,47 +1050,48 @@
    "uncapped": false,
    "cells": 1000,
    "mode": "one",
-   "fps": 59.8,
-   "cpu_pct": 61.2,
-   "cpu_ms_per_frame": 10.219,
+   "fps": 59.3,
+   "cpu_pct": 71.3,
+   "cpu_ms_per_frame": 12.247,
    "ws_mb": 102.2,
    "peak_ws_mb": 102.2,
    "private_mb": 39.8,
    "gpu_ms_per_frame": 2.03,
-   "first_frame_ms": 60,
-   "wall_s": 13.833149396999943,
+   "first_frame_ms": 57.3,
+   "frames_measured": 818,
+   "wall_s": 13.826717907000784,
    "_spread": {
     "fps": [
-     59.7,
-     59.9
+     52.0,
+     59.8
     ],
     "cpu_pct": [
-     60.8,
-     61.5
+     61.6,
+     72.6
     ],
     "cpu_ms_per_frame": [
-     10.157,
-     10.286
+     10.364,
+     13.647
     ],
     "ws_mb": [
-     101.9,
-     102.3
+     102.1,
+     102.4
     ],
     "peak_ws_mb": [
-     101.9,
-     102.3
+     102.1,
+     102.4
     ],
     "private_mb": [
      39.7,
-     39.9
+     40.0
     ],
     "first_frame_ms": [
-     53,
-     94
+     54.2,
+     78.6
     ],
     "gpu_ms_per_frame": [
-     2.02,
-     2.03
+     2.0,
+     2.07
     ]
    },
    "_reps": 5,
@@ -1085,12 +1106,13 @@
    "fps": 0.0,
    "cpu_pct": 0.1,
    "cpu_ms_per_frame": 0.0,
-   "ws_mb": 22.8,
-   "peak_ws_mb": 22.8,
+   "ws_mb": 22.7,
+   "peak_ws_mb": 22.7,
    "private_mb": 14.6,
    "gpu_ms_per_frame": null,
-   "first_frame_ms": 2,
-   "wall_s": 14.275860114999887,
+   "first_frame_ms": 1.5,
+   "frames_measured": 2,
+   "wall_s": 14.270574576999934,
    "_spread": {
     "fps": [
      0.0,
@@ -1105,20 +1127,20 @@
      0.0
     ],
     "ws_mb": [
-     22.8,
-     23.0
+     22.6,
+     22.9
     ],
     "peak_ws_mb": [
-     22.8,
-     23.0
+     22.6,
+     22.9
     ],
     "private_mb": [
      14.6,
      14.6
     ],
     "first_frame_ms": [
-     1,
-     2
+     1.4,
+     2.6
     ]
    },
    "_reps": 5,
@@ -1133,12 +1155,13 @@
    "fps": 0.0,
    "cpu_pct": 0.1,
    "cpu_ms_per_frame": 0.0,
-   "ws_mb": 88.7,
-   "peak_ws_mb": 88.7,
+   "ws_mb": 88.6,
+   "peak_ws_mb": 88.6,
    "private_mb": 26.9,
    "gpu_ms_per_frame": 0.0,
-   "first_frame_ms": 2,
-   "wall_s": 14.280272027999672,
+   "first_frame_ms": 1.5,
+   "frames_measured": 2,
+   "wall_s": 14.278897231000883,
    "_spread": {
     "fps": [
      0.0,
@@ -1153,20 +1176,20 @@
      0.0
     ],
     "ws_mb": [
-     88.5,
-     88.8
+     88.4,
+     88.7
     ],
     "peak_ws_mb": [
-     88.5,
-     88.8
+     88.4,
+     88.7
     ],
     "private_mb": [
      26.9,
      26.9
     ],
     "first_frame_ms": [
-     2,
-     3
+     1.4,
+     2.2
     ],
     "gpu_ms_per_frame": [
      0.0,
@@ -1183,14 +1206,15 @@
    "cells": 1000,
    "mode": "idle",
    "fps": 0.0,
-   "cpu_pct": 0.3,
+   "cpu_pct": 0.2,
    "cpu_ms_per_frame": 0.0,
-   "ws_mb": 102.2,
-   "peak_ws_mb": 102.2,
-   "private_mb": 39.8,
+   "ws_mb": 102.3,
+   "peak_ws_mb": 102.3,
+   "private_mb": 39.9,
    "gpu_ms_per_frame": 0.0,
-   "first_frame_ms": 56,
-   "wall_s": 14.337192384000446,
+   "first_frame_ms": 54.2,
+   "frames_measured": 2,
+   "wall_s": 14.333638001000509,
    "_spread": {
     "fps": [
      0.0,
@@ -1198,27 +1222,27 @@
     ],
     "cpu_pct": [
      0.2,
-     0.3
+     0.2
     ],
     "cpu_ms_per_frame": [
      0.0,
      0.0
     ],
     "ws_mb": [
-     102.0,
+     102.1,
      102.6
     ],
     "peak_ws_mb": [
-     102.0,
-     102.6
+     102.1,
+     102.7
     ],
     "private_mb": [
      39.7,
-     40.0
+     40.2
     ],
     "first_frame_ms": [
-     53,
-     57
+     54.0,
+     54.4
     ],
     "gpu_ms_per_frame": [
      0.0,
@@ -1234,43 +1258,44 @@
    "uncapped": false,
    "cells": 3000,
    "mode": "anim",
-   "fps": 33.4,
-   "cpu_pct": 41.7,
-   "cpu_ms_per_frame": 12.491,
+   "fps": 30.9,
+   "cpu_pct": 46.7,
+   "cpu_ms_per_frame": 15.131,
    "ws_mb": 32.9,
-   "peak_ws_mb": 33.4,
+   "peak_ws_mb": 33.5,
    "private_mb": 24.6,
    "gpu_ms_per_frame": null,
-   "first_frame_ms": 2,
-   "wall_s": 13.771927129999312,
+   "first_frame_ms": 1.5,
+   "frames_measured": 475,
+   "wall_s": 14.273173198000222,
    "_spread": {
     "fps": [
-     33.2,
-     33.5
+     28.7,
+     33.1
     ],
     "cpu_pct": [
-     41.6,
-     42.2
+     42.1,
+     50.2
     ],
     "cpu_ms_per_frame": [
-     12.449,
-     12.688
+     12.714,
+     17.53
     ],
     "ws_mb": [
      32.7,
      34.2
     ],
     "peak_ws_mb": [
-     33.2,
-     34.8
+     33.3,
+     34.7
     ],
     "private_mb": [
      24.6,
-     25.9
+     26.4
     ],
     "first_frame_ms": [
-     2,
-     3
+     1.4,
+     1.7
     ]
    },
    "_reps": 5,
@@ -1282,34 +1307,190 @@
    "uncapped": false,
    "cells": 3000,
    "mode": "anim",
-   "fps": 39.7,
-   "cpu_pct": 32.6,
-   "cpu_ms_per_frame": 8.203,
-   "ws_mb": 101.5,
-   "peak_ws_mb": 101.5,
-   "private_mb": 39.8,
-   "gpu_ms_per_frame": 29.01,
-   "first_frame_ms": 2,
-   "wall_s": 13.775867948999803,
+   "fps": 38.0,
+   "cpu_pct": 35.9,
+   "cpu_ms_per_frame": 9.435,
+   "ws_mb": 100.8,
+   "peak_ws_mb": 100.8,
+   "private_mb": 38.8,
+   "gpu_ms_per_frame": 29.17,
+   "first_frame_ms": 1.5,
+   "frames_measured": 544,
+   "wall_s": 13.774632077000206,
    "_spread": {
     "fps": [
-     39.5,
-     39.8
+     34.9,
+     39.4
     ],
     "cpu_pct": [
-     32.6,
-     32.9
+     33.1,
+     41.0
     ],
     "cpu_ms_per_frame": [
-     8.185,
-     8.326
+     8.391,
+     11.728
     ],
     "ws_mb": [
-     100.4,
+     100.3,
+     102.0
+    ],
+    "peak_ws_mb": [
+     100.3,
+     102.0
+    ],
+    "private_mb": [
+     38.8,
+     40.1
+    ],
+    "first_frame_ms": [
+     1.4,
+     2.6
+    ],
+    "gpu_ms_per_frame": [
+     28.62,
+     29.59
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "gpui (GPU, Vulkan)",
+   "renderer": "gpu",
+   "uncapped": false,
+   "cells": 3000,
+   "mode": "anim",
+   "fps": 20.0,
+   "cpu_pct": 79.5,
+   "cpu_ms_per_frame": 37.574,
+   "ws_mb": 133.9,
+   "peak_ws_mb": 133.9,
+   "private_mb": 71.4,
+   "gpu_ms_per_frame": 2.62,
+   "first_frame_ms": 56.4,
+   "frames_measured": 316,
+   "wall_s": 14.331653257999278,
+   "_spread": {
+    "fps": [
+     17.9,
+     26.8
+    ],
+    "cpu_pct": [
+     75.0,
+     87.6
+    ],
+    "cpu_ms_per_frame": [
+     32.734,
+     45.897
+    ],
+    "ws_mb": [
+     132.7,
+     134.8
+    ],
+    "peak_ws_mb": [
+     132.7,
+     134.8
+    ],
+    "private_mb": [
+     70.4,
+     72.3
+    ],
+    "first_frame_ms": [
+     53.5,
+     70.0
+    ],
+    "gpu_ms_per_frame": [
+     2.56,
+     2.67
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "bui (CPU raster)",
+   "renderer": "cpu",
+   "uncapped": true,
+   "cells": 3000,
+   "mode": "anim",
+   "fps": 33.2,
+   "cpu_pct": 42.1,
+   "cpu_ms_per_frame": 12.666,
+   "ws_mb": 33.5,
+   "peak_ws_mb": 33.5,
+   "private_mb": 25.3,
+   "gpu_ms_per_frame": null,
+   "first_frame_ms": 1.5,
+   "frames_measured": 477,
+   "wall_s": 14.271877995999603,
+   "_spread": {
+    "fps": [
+     31.1,
+     33.6
+    ],
+    "cpu_pct": [
+     41.2,
+     46.4
+    ],
+    "cpu_ms_per_frame": [
+     12.262,
+     14.932
+    ],
+    "ws_mb": [
+     33.4,
+     34.7
+    ],
+    "peak_ws_mb": [
+     33.4,
+     34.7
+    ],
+    "private_mb": [
+     25.3,
+     26.6
+    ],
+    "first_frame_ms": [
+     1.4,
+     2.6
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "bui (GPU renderer)",
+   "renderer": "gpu",
+   "uncapped": true,
+   "cells": 3000,
+   "mode": "anim",
+   "fps": 39.5,
+   "cpu_pct": 33.0,
+   "cpu_ms_per_frame": 8.336,
+   "ws_mb": 100.6,
+   "peak_ws_mb": 100.6,
+   "private_mb": 38.8,
+   "gpu_ms_per_frame": 28.89,
+   "first_frame_ms": 1.6,
+   "frames_measured": 540,
+   "wall_s": 13.776652496999304,
+   "_spread": {
+    "fps": [
+     38.1,
+     39.7
+    ],
+    "cpu_pct": [
+     32.4,
+     35.7
+    ],
+    "cpu_ms_per_frame": [
+     8.148,
+     9.362
+    ],
+    "ws_mb": [
+     100.6,
      101.7
     ],
     "peak_ws_mb": [
-     100.4,
+     100.6,
      101.7
     ],
     "private_mb": [
@@ -1317,164 +1498,12 @@
      40.0
     ],
     "first_frame_ms": [
-     1,
-     3
+     1.4,
+     2.6
     ],
     "gpu_ms_per_frame": [
-     28.82,
-     29.31
-    ]
-   },
-   "_reps": 5,
-   "example": 1
-  },
-  {
-   "app": "gpui (GPU, Vulkan)",
-   "renderer": "gpu",
-   "uncapped": false,
-   "cells": 3000,
-   "mode": "anim",
-   "fps": 27.9,
-   "cpu_pct": 90.9,
-   "cpu_ms_per_frame": 32.581,
-   "ws_mb": 133.4,
-   "peak_ws_mb": 133.4,
-   "private_mb": 71.0,
-   "gpu_ms_per_frame": 2.65,
-   "first_frame_ms": 66,
-   "wall_s": 13.841922216000967,
-   "_spread": {
-    "fps": [
-     27.8,
-     28.5
-    ],
-    "cpu_pct": [
-     90.6,
-     92.7
-    ],
-    "cpu_ms_per_frame": [
-     32.386,
-     32.68
-    ],
-    "ws_mb": [
-     132.7,
-     135.7
-    ],
-    "peak_ws_mb": [
-     132.7,
-     135.7
-    ],
-    "private_mb": [
-     70.4,
-     73.2
-    ],
-    "first_frame_ms": [
-     58,
-     73
-    ],
-    "gpu_ms_per_frame": [
-     2.63,
-     2.66
-    ]
-   },
-   "_reps": 5,
-   "example": 1
-  },
-  {
-   "app": "bui (CPU raster)",
-   "renderer": "cpu",
-   "uncapped": true,
-   "cells": 3000,
-   "mode": "anim",
-   "fps": 33.5,
-   "cpu_pct": 41.5,
-   "cpu_ms_per_frame": 12.376,
-   "ws_mb": 33.4,
-   "peak_ws_mb": 33.4,
-   "private_mb": 25.3,
-   "gpu_ms_per_frame": null,
-   "first_frame_ms": 2,
-   "wall_s": 13.774225963999925,
-   "_spread": {
-    "fps": [
-     33.4,
-     33.6
-    ],
-    "cpu_pct": [
-     41.3,
-     41.7
-    ],
-    "cpu_ms_per_frame": [
-     12.285,
-     12.471
-    ],
-    "ws_mb": [
-     33.2,
-     34.9
-    ],
-    "peak_ws_mb": [
-     33.2,
-     34.9
-    ],
-    "private_mb": [
-     25.3,
-     26.6
-    ],
-    "first_frame_ms": [
-     1,
-     2
-    ]
-   },
-   "_reps": 5,
-   "example": 1
-  },
-  {
-   "app": "bui (GPU renderer)",
-   "renderer": "gpu",
-   "uncapped": true,
-   "cells": 3000,
-   "mode": "anim",
-   "fps": 39.7,
-   "cpu_pct": 32.5,
-   "cpu_ms_per_frame": 8.184,
-   "ws_mb": 100.8,
-   "peak_ws_mb": 100.8,
-   "private_mb": 38.8,
-   "gpu_ms_per_frame": 29.03,
-   "first_frame_ms": 2,
-   "wall_s": 13.774512742000297,
-   "_spread": {
-    "fps": [
-     39.7,
-     39.8
-    ],
-    "cpu_pct": [
-     32.3,
-     32.6
-    ],
-    "cpu_ms_per_frame": [
-     8.121,
-     8.21
-    ],
-    "ws_mb": [
-     100.6,
-     101.9
-    ],
-    "peak_ws_mb": [
-     100.6,
-     101.9
-    ],
-    "private_mb": [
-     38.8,
-     40.1
-    ],
-    "first_frame_ms": [
-     1,
-     3
-    ],
-    "gpu_ms_per_frame": [
-     28.68,
-     29.57
+     28.55,
+     29.05
     ]
    },
    "_reps": 5,
@@ -1486,199 +1515,203 @@
    "uncapped": true,
    "cells": 3000,
    "mode": "anim",
-   "fps": 28.1,
-   "cpu_pct": 91.4,
-   "cpu_ms_per_frame": 32.561,
-   "ws_mb": 133.5,
-   "peak_ws_mb": 133.5,
-   "private_mb": 71.0,
-   "gpu_ms_per_frame": 2.63,
-   "first_frame_ms": 57,
-   "wall_s": 13.839325451999684,
-   "_spread": {
-    "fps": [
-     27.8,
-     28.4
-    ],
-    "cpu_pct": [
-     90.4,
-     92.3
-    ],
-    "cpu_ms_per_frame": [
-     32.447,
-     32.578
-    ],
-    "ws_mb": [
-     132.8,
-     134.4
-    ],
-    "peak_ws_mb": [
-     132.8,
-     134.4
-    ],
-    "private_mb": [
-     70.4,
-     72.0
-    ],
-    "first_frame_ms": [
-     53,
-     89
-    ],
-    "gpu_ms_per_frame": [
-     2.6,
-     2.64
-    ]
-   },
-   "_reps": 5,
-   "example": 1
-  },
-  {
-   "app": "bui (CPU raster)",
-   "renderer": "cpu",
-   "uncapped": false,
-   "cells": 3000,
-   "mode": "one",
-   "fps": 35.4,
-   "cpu_pct": 40.2,
-   "cpu_ms_per_frame": 11.348,
-   "ws_mb": 33.6,
-   "peak_ws_mb": 33.6,
-   "private_mb": 25.3,
-   "gpu_ms_per_frame": null,
-   "first_frame_ms": 2,
-   "wall_s": 13.776375360999737,
-   "_spread": {
-    "fps": [
-     35.3,
-     35.5
-    ],
-    "cpu_pct": [
-     40.1,
-     40.4
-    ],
-    "cpu_ms_per_frame": [
-     11.298,
-     11.445
-    ],
-    "ws_mb": [
-     33.4,
-     34.9
-    ],
-    "peak_ws_mb": [
-     33.4,
-     34.9
-    ],
-    "private_mb": [
-     25.3,
-     26.6
-    ],
-    "first_frame_ms": [
-     1,
-     3
-    ]
-   },
-   "_reps": 5,
-   "example": 1
-  },
-  {
-   "app": "bui (GPU renderer)",
-   "renderer": "gpu",
-   "uncapped": false,
-   "cells": 3000,
-   "mode": "one",
-   "fps": 40.5,
-   "cpu_pct": 31.2,
-   "cpu_ms_per_frame": 7.701,
-   "ws_mb": 101.7,
-   "peak_ws_mb": 101.7,
-   "private_mb": 40.0,
-   "gpu_ms_per_frame": 28.43,
-   "first_frame_ms": 2,
-   "wall_s": 13.777239147000728,
-   "_spread": {
-    "fps": [
-     40.3,
-     40.6
-    ],
-    "cpu_pct": [
-     31.1,
-     31.6
-    ],
-    "cpu_ms_per_frame": [
-     7.643,
-     7.847
-    ],
-    "ws_mb": [
-     100.5,
-     101.8
-    ],
-    "peak_ws_mb": [
-     100.5,
-     101.9
-    ],
-    "private_mb": [
-     38.8,
-     40.1
-    ],
-    "first_frame_ms": [
-     1,
-     3
-    ],
-    "gpu_ms_per_frame": [
-     28.01,
-     28.7
-    ]
-   },
-   "_reps": 5,
-   "example": 1
-  },
-  {
-   "app": "gpui (GPU, Vulkan)",
-   "renderer": "gpu",
-   "uncapped": false,
-   "cells": 3000,
-   "mode": "one",
-   "fps": 26.0,
-   "cpu_pct": 85.9,
-   "cpu_ms_per_frame": 33.083,
+   "fps": 25.2,
+   "cpu_pct": 84.9,
+   "cpu_ms_per_frame": 33.75,
    "ws_mb": 133.9,
    "peak_ws_mb": 133.9,
    "private_mb": 71.4,
-   "gpu_ms_per_frame": 2.66,
-   "first_frame_ms": 57,
-   "wall_s": 14.329585789999328,
+   "gpu_ms_per_frame": 2.62,
+   "first_frame_ms": 56.4,
+   "frames_measured": 361,
+   "wall_s": 14.332312088001345,
    "_spread": {
     "fps": [
-     25.1,
-     27.5
+     19.6,
+     28.0
     ],
     "cpu_pct": [
-     83.2,
-     90.2
+     76.4,
+     91.0
     ],
     "cpu_ms_per_frame": [
-     32.836,
-     33.568
+     32.553,
+     40.035
     ],
     "ws_mb": [
      132.9,
-     134.6
+     134.4
     ],
     "peak_ws_mb": [
      132.9,
-     134.6
+     134.4
     ],
     "private_mb": [
      70.4,
      72.0
     ],
     "first_frame_ms": [
-     53,
-     64
+     53.0,
+     57.2
     ],
     "gpu_ms_per_frame": [
-     2.62,
-     2.68
+     2.59,
+     2.65
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "bui (CPU raster)",
+   "renderer": "cpu",
+   "uncapped": false,
+   "cells": 3000,
+   "mode": "one",
+   "fps": 32.8,
+   "cpu_pct": 44.6,
+   "cpu_ms_per_frame": 13.622,
+   "ws_mb": 33.5,
+   "peak_ws_mb": 33.5,
+   "private_mb": 25.3,
+   "gpu_ms_per_frame": null,
+   "first_frame_ms": 1.5,
+   "frames_measured": 435,
+   "wall_s": 13.769918486999813,
+   "_spread": {
+    "fps": [
+     31.2,
+     34.5
+    ],
+    "cpu_pct": [
+     41.7,
+     47.6
+    ],
+    "cpu_ms_per_frame": [
+     12.072,
+     15.268
+    ],
+    "ws_mb": [
+     33.4,
+     34.7
+    ],
+    "peak_ws_mb": [
+     33.5,
+     34.7
+    ],
+    "private_mb": [
+     25.3,
+     26.6
+    ],
+    "first_frame_ms": [
+     1.4,
+     2.7
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "bui (GPU renderer)",
+   "renderer": "gpu",
+   "uncapped": false,
+   "cells": 3000,
+   "mode": "one",
+   "fps": 38.5,
+   "cpu_pct": 35.0,
+   "cpu_ms_per_frame": 9.087,
+   "ws_mb": 100.7,
+   "peak_ws_mb": 100.7,
+   "private_mb": 38.8,
+   "gpu_ms_per_frame": 29.14,
+   "first_frame_ms": 2.2,
+   "frames_measured": 513,
+   "wall_s": 13.77558265100015,
+   "_spread": {
+    "fps": [
+     36.9,
+     40.1
+    ],
+    "cpu_pct": [
+     32.2,
+     37.7
+    ],
+    "cpu_ms_per_frame": [
+     8.021,
+     10.209
+    ],
+    "ws_mb": [
+     100.5,
+     101.6
+    ],
+    "peak_ws_mb": [
+     100.5,
+     101.6
+    ],
+    "private_mb": [
+     38.8,
+     39.7
+    ],
+    "first_frame_ms": [
+     1.4,
+     2.8
+    ],
+    "gpu_ms_per_frame": [
+     28.83,
+     29.41
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "gpui (GPU, Vulkan)",
+   "renderer": "gpu",
+   "uncapped": false,
+   "cells": 3000,
+   "mode": "one",
+   "fps": 20.1,
+   "cpu_pct": 73.9,
+   "cpu_ms_per_frame": 35.913,
+   "ws_mb": 133.9,
+   "peak_ws_mb": 133.9,
+   "private_mb": 71.4,
+   "gpu_ms_per_frame": 2.64,
+   "first_frame_ms": 57.3,
+   "frames_measured": 259,
+   "wall_s": 13.830637361001209,
+   "_spread": {
+    "fps": [
+     18.7,
+     21.4
+    ],
+    "cpu_pct": [
+     72.1,
+     80.4
+    ],
+    "cpu_ms_per_frame": [
+     34.114,
+     43.034
+    ],
+    "ws_mb": [
+     133.2,
+     134.8
+    ],
+    "peak_ws_mb": [
+     133.2,
+     134.8
+    ],
+    "private_mb": [
+     70.8,
+     72.3
+    ],
+    "first_frame_ms": [
+     54.3,
+     63.8
+    ],
+    "gpu_ms_per_frame": [
+     2.59,
+     2.64
     ]
    },
    "_reps": 5,
@@ -1697,8 +1730,9 @@
    "peak_ws_mb": 32.3,
    "private_mb": 24.2,
    "gpu_ms_per_frame": null,
-   "first_frame_ms": 2,
-   "wall_s": 14.279364007999902,
+   "first_frame_ms": 1.6,
+   "frames_measured": 2,
+   "wall_s": 14.277070894000644,
    "_spread": {
     "fps": [
      0.0,
@@ -1713,20 +1747,20 @@
      0.0
     ],
     "ws_mb": [
-     32.1,
-     33.4
+     32.3,
+     33.6
     ],
     "peak_ws_mb": [
-     32.1,
-     33.4
+     32.3,
+     33.6
     ],
     "private_mb": [
      24.2,
-     25.3
+     25.5
     ],
     "first_frame_ms": [
-     1,
-     2
+     1.4,
+     2.7
     ]
    },
    "_reps": 5,
@@ -1741,12 +1775,13 @@
    "fps": 0.0,
    "cpu_pct": 0.1,
    "cpu_ms_per_frame": 0.0,
-   "ws_mb": 99.6,
-   "peak_ws_mb": 99.6,
-   "private_mb": 38.0,
+   "ws_mb": 100.1,
+   "peak_ws_mb": 100.1,
+   "private_mb": 38.3,
    "gpu_ms_per_frame": 0.0,
-   "first_frame_ms": 2,
-   "wall_s": 14.277618788999462,
+   "first_frame_ms": 1.6,
+   "frames_measured": 2,
+   "wall_s": 14.285023270000238,
    "_spread": {
     "fps": [
      0.0,
@@ -1761,20 +1796,20 @@
      0.0
     ],
     "ws_mb": [
-     98.7,
-     100.1
+     98.9,
+     100.2
     ],
     "peak_ws_mb": [
-     98.7,
-     100.1
+     98.9,
+     100.2
     ],
     "private_mb": [
      37.1,
      38.3
     ],
     "first_frame_ms": [
-     2,
-     2
+     1.5,
+     2.2
     ],
     "gpu_ms_per_frame": [
      0.0,
@@ -1791,22 +1826,23 @@
    "cells": 3000,
    "mode": "idle",
    "fps": 0.0,
-   "cpu_pct": 0.3,
+   "cpu_pct": 0.2,
    "cpu_ms_per_frame": 0.0,
-   "ws_mb": 133.8,
-   "peak_ws_mb": 133.8,
+   "ws_mb": 133.5,
+   "peak_ws_mb": 133.5,
    "private_mb": 71.2,
    "gpu_ms_per_frame": 0.0,
-   "first_frame_ms": 57,
-   "wall_s": 14.375998094999886,
+   "first_frame_ms": 54.3,
+   "frames_measured": 2,
+   "wall_s": 14.336273753000569,
    "_spread": {
     "fps": [
      0.0,
      0.0
     ],
     "cpu_pct": [
-     0.3,
-     0.3
+     0.2,
+     0.2
     ],
     "cpu_ms_per_frame": [
      0.0,
@@ -1814,19 +1850,19 @@
     ],
     "ws_mb": [
      132.6,
-     135.5
+     134.3
     ],
     "peak_ws_mb": [
      132.6,
-     135.5
+     134.3
     ],
     "private_mb": [
-     70.0,
-     72.9
+     70.2,
+     71.9
     ],
     "first_frame_ms": [
-     53,
-     94
+     53.3,
+     56.5
     ],
     "gpu_ms_per_frame": [
      0.0,
@@ -1849,8 +1885,9 @@
    "peak_ws_mb": 10.1,
    "private_mb": 2.1,
    "gpu_ms_per_frame": null,
-   "first_frame_ms": 2,
-   "wall_s": 14.278260207998756,
+   "first_frame_ms": 1.5,
+   "frames_measured": 3,
+   "wall_s": 14.270512060998954,
    "_spread": {
     "fps": [
      0.0,
@@ -1865,20 +1902,20 @@
      0.0
     ],
     "ws_mb": [
-     10.1,
-     10.2
+     10.0,
+     10.4
     ],
     "peak_ws_mb": [
-     10.1,
-     10.2
+     10.0,
+     10.4
     ],
     "private_mb": [
      2.1,
      2.1
     ],
     "first_frame_ms": [
-     1,
-     3
+     1.4,
+     2.1
     ]
    },
    "_reps": 5,
@@ -1897,8 +1934,9 @@
    "peak_ws_mb": 81.5,
    "private_mb": 19.8,
    "gpu_ms_per_frame": 0.0,
-   "first_frame_ms": 3,
-   "wall_s": 14.27863125499971,
+   "first_frame_ms": 1.6,
+   "frames_measured": 3,
+   "wall_s": 14.271982066000419,
    "_spread": {
     "fps": [
      0.0,
@@ -1925,8 +1963,8 @@
      19.8
     ],
     "first_frame_ms": [
-     2,
-     3
+     1.5,
+     2.3
     ],
     "gpu_ms_per_frame": [
      0.0,
@@ -1945,40 +1983,41 @@
    "fps": 0.0,
    "cpu_pct": 0.1,
    "cpu_ms_per_frame": 0.0,
-   "ws_mb": 10.4,
-   "peak_ws_mb": 10.4,
+   "ws_mb": 10.2,
+   "peak_ws_mb": 10.2,
    "private_mb": 2.1,
    "gpu_ms_per_frame": null,
-   "first_frame_ms": 3,
-   "wall_s": 14.276470323000467,
+   "first_frame_ms": 1.6,
+   "frames_measured": 3,
+   "wall_s": 14.268504519999624,
    "_spread": {
     "fps": [
      0.0,
-     2.2
+     0.0
     ],
     "cpu_pct": [
      0.1,
-     0.2
+     0.1
     ],
     "cpu_ms_per_frame": [
      0.0,
-     0.997
+     0.0
     ],
     "ws_mb": [
      10.2,
-     10.5
+     10.6
     ],
     "peak_ws_mb": [
      10.2,
-     10.8
+     10.6
     ],
     "private_mb": [
      2.1,
-     2.2
+     2.1
     ],
     "first_frame_ms": [
-     2,
-     3
+     1.5,
+     2.2
     ]
    },
    "_reps": 5,
@@ -1991,42 +2030,43 @@
    "cells": 100,
    "mode": "static",
    "fps": 0.0,
-   "cpu_pct": 0.3,
+   "cpu_pct": 0.2,
    "cpu_ms_per_frame": 0.0,
-   "ws_mb": 87.0,
-   "peak_ws_mb": 87.0,
-   "private_mb": 24.5,
+   "ws_mb": 87.1,
+   "peak_ws_mb": 87.1,
+   "private_mb": 24.6,
    "gpu_ms_per_frame": 0.0,
-   "first_frame_ms": 73,
-   "wall_s": 14.334935417000452,
+   "first_frame_ms": 58.9,
+   "frames_measured": 2,
+   "wall_s": 14.328959948001284,
    "_spread": {
     "fps": [
      0.0,
      0.0
     ],
     "cpu_pct": [
-     0.3,
-     0.3
+     0.2,
+     0.2
     ],
     "cpu_ms_per_frame": [
      0.0,
      0.0
     ],
     "ws_mb": [
-     86.7,
-     87.2
+     86.9,
+     87.3
     ],
     "peak_ws_mb": [
-     86.7,
-     87.2
+     86.9,
+     87.3
     ],
     "private_mb": [
-     24.5,
+     24.6,
      24.6
     ],
     "first_frame_ms": [
-     60,
-     87
+     53.0,
+     73.5
     ],
     "gpu_ms_per_frame": [
      0.0,
