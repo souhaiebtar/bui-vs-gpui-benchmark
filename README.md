@@ -83,6 +83,11 @@ which is why this harness reports milliseconds and not just frame rate.
 every mode, scaling curves, memory growth, why the differences exist, threats to
 validity, and the verdict matrix.
 📊 **[RESULTS.md](RESULTS.md)** is the raw generated report from the last sweep.
+♻️ **[REUSING.md](REUSING.md)** — how to lift out the measurement library, the
+scenes or the harness for your own framework.
+📚 **[DOCS-COMPARED.md](DOCS-COMPARED.md)** — how the two projects document
+themselves, measured: 4,354 against 199 lines of prose, and what each set does
+better.
 
 ## Reproducing it
 
@@ -141,6 +146,8 @@ examples/02-settings-form/  form.rs shared; bui/, bui-native/ and gpui/ crates
 third_party/xattr/       gpui's xattr 0.2.3 with one libc constant fixed for Linux
 COMPARISON.md            the full analysis
 RESULTS.md               generated tables from the last sweep
+REUSING.md               how to reuse the harness, scenes or measurement code
+DOCS-COMPARED.md         how the two projects document themselves, measured
 ```
 
 ## Caveats in one breath

@@ -121,7 +121,13 @@ def is_valid(row: dict, animated: bool) -> bool:
     not a slow frame rate, it is a stalled measurement, and averaging it in
     would turn into a fictitious "0.00 ms per frame".
     """
-    if row.get("first_frame_ms", 0) <= 0:
+    # `frames_measured` is the unambiguous signal: it counts renders, whereas
+    # `first_frame_ms` is a duration that can legitimately be ~0 for a fast app
+    # (which is why it now has decimals).
+    frames = row.get("frames_measured")
+    if frames is not None and frames < 1:
+        return False
+    if frames is None and row.get("first_frame_ms", 0) <= 0:
         return False
     if animated and (row.get("fps") or 0.0) < 0.5:
         return False

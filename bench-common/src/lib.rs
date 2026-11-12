@@ -434,7 +434,8 @@ pub fn start(label: &'static str, cfg: &Config) -> Measured {
             "{{\"app\":\"{label}\",\"renderer\":\"{renderer}\",\"uncapped\":{uncapped},\
              \"cells\":{cells},\"mode\":\"{mode}\",\"fps\":{:.1},\"cpu_pct\":{:.1},\
              \"cpu_ms_per_frame\":{:.3},\"ws_mb\":{:.1},\"peak_ws_mb\":{:.1},\
-             \"private_mb\":{:.1},\"gpu_ms_per_frame\":{gpu_json},\"first_frame_ms\":{:.0}}}",
+             \"private_mb\":{:.1},\"gpu_ms_per_frame\":{gpu_json},\"first_frame_ms\":{:.1},\
+             \"frames_measured\":{}}}",
             frames as f64 / wall,
             cpu / wall * 100.0,
             if frames > 0 {
@@ -445,7 +446,11 @@ pub fn start(label: &'static str, cfg: &Config) -> Measured {
             mb(ws_sum / samples.max(1) as f64),
             mb(peak_ws as f64),
             mb(m.private_bytes as f64),
+            // One decimal, not zero: a fast app really can reach its first frame
+            // in under 0.05 ms, and printing "0" makes that indistinguishable
+            // from "never drew a frame". `frames_measured` settles it.
             first.as_secs_f64() * 1000.0,
+            frames0 + frames,
         );
         // Leave now: a framework that keeps animating must not skew the loop.
         std::process::exit(0);
