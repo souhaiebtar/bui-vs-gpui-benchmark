@@ -1,0 +1,10 @@
+[package]
+name = "grid-scene-gpui"
+version = "0.1.0"
+edition = "2021"
+publish = false
+description = "Example 1: the shared grid scene on gpui (Zed's UI framework), Vulkan-rendered"
+
+[dependencies]
+bench-common = { path = "../../../bench-common" }
+gpui = "0.2.2"

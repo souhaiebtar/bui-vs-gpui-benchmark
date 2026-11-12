@@ -1,0 +1,6 @@
+# Link-time dev symlinks for libraries this machine only has as runtime `.so.0`
+# (gpui's xkbcommon / xcb link wants `lib<x>.so`). They point at the system
+# libraries; nothing is vendored. Remove the rustflags if your distro ships the
+# -dev packages (libxkbcommon-dev, libxkbcommon-x11-dev).
+[target.x86_64-unknown-linux-gnu]
+rustflags = ["-L", "native=third_party/stubs"]

@@ -1,0 +1,22 @@
+# Build output
+/target
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+
+# `bench/results.json` IS committed on purpose: it holds the raw data behind
+# RESULTS.md, including the run settings and binary checksums, so the report can
+# be regenerated without re-measuring (`python3 bench/run.py --report-only`).
+
+# Created by third_party/stubs/make-stubs.sh; they point at system libraries
+# with an absolute path, so they must not be committed.
+/third_party/stubs/lib*.so

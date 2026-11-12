@@ -1,0 +1,10 @@
+[package]
+name = "grid-scene-bui"
+version = "0.1.0"
+edition = "2021"
+publish = false
+description = "Example 1: the shared grid scene on blenderui (BUI), CPU raster or GPU renderer"
+
+[dependencies]
+bench-common = { path = "../../../bench-common" }
+blenderui = "0.5.0"

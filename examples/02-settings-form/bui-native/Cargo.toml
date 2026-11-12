@@ -1,0 +1,10 @@
+[package]
+name = "settings-form-bui-native"
+version = "0.1.0"
+edition = "2021"
+publish = false
+description = "Example 2 variant: the same form with BUI's real Blender widgets instead of divs"
+
+[dependencies]
+bench-common = { path = "../../../bench-common" }
+blenderui = "0.5.0"

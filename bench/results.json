@@ -1,0 +1,2040 @@
+{
+ "_meta": {
+  "reps": 5,
+  "warmup": 3.0,
+  "seconds": 10.0,
+  "checksums": [
+   "ed0aa489efef36d8f425302d0275c732  grid-scene-bui",
+   "1843f03c8abc8bca5e3e7824bdb4982a  grid-scene-gpui",
+   "e837da9bed384e1fa92f07ac4f05aee8  settings-form-bui",
+   "cc607e056b380951ecfb10f697a8e963  settings-form-bui-native",
+   "de64ed3dde09b3d6bdbef51e13ff893f  settings-form-gpui"
+  ]
+ },
+ "rows": [
+  {
+   "app": "bui (CPU raster)",
+   "renderer": "cpu",
+   "uncapped": false,
+   "cells": 100,
+   "mode": "anim",
+   "fps": 49.7,
+   "cpu_pct": 13.8,
+   "cpu_ms_per_frame": 2.783,
+   "ws_mb": 19.2,
+   "peak_ws_mb": 19.2,
+   "private_mb": 11.0,
+   "gpu_ms_per_frame": null,
+   "first_frame_ms": 2,
+   "wall_s": 13.772410692999983,
+   "_spread": {
+    "fps": [
+     49.5,
+     51.0
+    ],
+    "cpu_pct": [
+     11.2,
+     14.2
+    ],
+    "cpu_ms_per_frame": [
+     2.197,
+     2.861
+    ],
+    "ws_mb": [
+     19.1,
+     19.4
+    ],
+    "peak_ws_mb": [
+     19.1,
+     19.4
+    ],
+    "private_mb": [
+     11.0,
+     11.1
+    ],
+    "first_frame_ms": [
+     1,
+     3
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "bui (GPU renderer)",
+   "renderer": "gpu",
+   "uncapped": false,
+   "cells": 100,
+   "mode": "anim",
+   "fps": 57.1,
+   "cpu_pct": 3.5,
+   "cpu_ms_per_frame": 0.622,
+   "ws_mb": 84.4,
+   "peak_ws_mb": 84.4,
+   "private_mb": 22.8,
+   "gpu_ms_per_frame": 8.18,
+   "first_frame_ms": 3,
+   "wall_s": 13.77425022099942,
+   "_spread": {
+    "fps": [
+     54.5,
+     57.3
+    ],
+    "cpu_pct": [
+     3.3,
+     3.7
+    ],
+    "cpu_ms_per_frame": [
+     0.583,
+     0.641
+    ],
+    "ws_mb": [
+     84.3,
+     84.8
+    ],
+    "peak_ws_mb": [
+     84.3,
+     84.8
+    ],
+    "private_mb": [
+     22.7,
+     22.9
+    ],
+    "first_frame_ms": [
+     2,
+     3
+    ],
+    "gpu_ms_per_frame": [
+     7.22,
+     8.52
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "gpui (GPU, Vulkan)",
+   "renderer": "gpu",
+   "uncapped": false,
+   "cells": 100,
+   "mode": "anim",
+   "fps": 59.9,
+   "cpu_pct": 12.4,
+   "cpu_ms_per_frame": 2.064,
+   "ws_mb": 88.1,
+   "peak_ws_mb": 88.1,
+   "private_mb": 25.7,
+   "gpu_ms_per_frame": 2.0,
+   "first_frame_ms": 72,
+   "wall_s": 13.827741987000081,
+   "_spread": {
+    "fps": [
+     59.9,
+     60.0
+    ],
+    "cpu_pct": [
+     10.8,
+     13.0
+    ],
+    "cpu_ms_per_frame": [
+     1.792,
+     2.164
+    ],
+    "ws_mb": [
+     88.0,
+     88.2
+    ],
+    "peak_ws_mb": [
+     88.0,
+     88.2
+    ],
+    "private_mb": [
+     25.6,
+     25.7
+    ],
+    "first_frame_ms": [
+     53,
+     78
+    ],
+    "gpu_ms_per_frame": [
+     1.78,
+     2.07
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "bui (CPU raster)",
+   "renderer": "cpu",
+   "uncapped": true,
+   "cells": 100,
+   "mode": "anim",
+   "fps": 49.7,
+   "cpu_pct": 14.0,
+   "cpu_ms_per_frame": 2.817,
+   "ws_mb": 19.2,
+   "peak_ws_mb": 19.2,
+   "private_mb": 11.0,
+   "gpu_ms_per_frame": null,
+   "first_frame_ms": 3,
+   "wall_s": 13.770560403999298,
+   "_spread": {
+    "fps": [
+     49.6,
+     49.8
+    ],
+    "cpu_pct": [
+     13.6,
+     14.2
+    ],
+    "cpu_ms_per_frame": [
+     2.735,
+     2.852
+    ],
+    "ws_mb": [
+     19.1,
+     19.3
+    ],
+    "peak_ws_mb": [
+     19.1,
+     19.3
+    ],
+    "private_mb": [
+     11.0,
+     11.0
+    ],
+    "first_frame_ms": [
+     2,
+     3
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "bui (GPU renderer)",
+   "renderer": "gpu",
+   "uncapped": true,
+   "cells": 100,
+   "mode": "anim",
+   "fps": 57.2,
+   "cpu_pct": 3.6,
+   "cpu_ms_per_frame": 0.626,
+   "ws_mb": 84.5,
+   "peak_ws_mb": 84.5,
+   "private_mb": 22.8,
+   "gpu_ms_per_frame": 8.37,
+   "first_frame_ms": 3,
+   "wall_s": 13.772952013999202,
+   "_spread": {
+    "fps": [
+     57.1,
+     57.3
+    ],
+    "cpu_pct": [
+     3.6,
+     3.7
+    ],
+    "cpu_ms_per_frame": [
+     0.62,
+     0.641
+    ],
+    "ws_mb": [
+     84.5,
+     84.7
+    ],
+    "peak_ws_mb": [
+     84.5,
+     84.7
+    ],
+    "private_mb": [
+     22.7,
+     22.9
+    ],
+    "first_frame_ms": [
+     2,
+     3
+    ],
+    "gpu_ms_per_frame": [
+     8.2,
+     8.61
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "gpui (GPU, Vulkan)",
+   "renderer": "gpu",
+   "uncapped": true,
+   "cells": 100,
+   "mode": "anim",
+   "fps": 60.0,
+   "cpu_pct": 12.2,
+   "cpu_ms_per_frame": 2.037,
+   "ws_mb": 88.0,
+   "peak_ws_mb": 88.0,
+   "private_mb": 25.7,
+   "gpu_ms_per_frame": 2.06,
+   "first_frame_ms": 72,
+   "wall_s": 13.84197600799962,
+   "_spread": {
+    "fps": [
+     59.9,
+     60.0
+    ],
+    "cpu_pct": [
+     11.6,
+     13.3
+    ],
+    "cpu_ms_per_frame": [
+     1.931,
+     2.209
+    ],
+    "ws_mb": [
+     87.9,
+     88.2
+    ],
+    "peak_ws_mb": [
+     87.9,
+     88.2
+    ],
+    "private_mb": [
+     25.6,
+     25.7
+    ],
+    "first_frame_ms": [
+     69,
+     82
+    ],
+    "gpu_ms_per_frame": [
+     2.0,
+     2.11
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "bui (CPU raster)",
+   "renderer": "cpu",
+   "uncapped": false,
+   "cells": 100,
+   "mode": "one",
+   "fps": 53.0,
+   "cpu_pct": 11.0,
+   "cpu_ms_per_frame": 2.081,
+   "ws_mb": 18.1,
+   "peak_ws_mb": 18.4,
+   "private_mb": 10.2,
+   "gpu_ms_per_frame": null,
+   "first_frame_ms": 2,
+   "wall_s": 13.770447692999369,
+   "_spread": {
+    "fps": [
+     52.9,
+     53.1
+    ],
+    "cpu_pct": [
+     11.0,
+     11.2
+    ],
+    "cpu_ms_per_frame": [
+     2.066,
+     2.117
+    ],
+    "ws_mb": [
+     18.0,
+     18.2
+    ],
+    "peak_ws_mb": [
+     18.3,
+     18.4
+    ],
+    "private_mb": [
+     10.2,
+     10.2
+    ],
+    "first_frame_ms": [
+     2,
+     4
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "bui (GPU renderer)",
+   "renderer": "gpu",
+   "uncapped": false,
+   "cells": 100,
+   "mode": "one",
+   "fps": 57.3,
+   "cpu_pct": 3.5,
+   "cpu_ms_per_frame": 0.611,
+   "ws_mb": 83.6,
+   "peak_ws_mb": 84.0,
+   "private_mb": 22.1,
+   "gpu_ms_per_frame": 8.37,
+   "first_frame_ms": 3,
+   "wall_s": 13.776574145000268,
+   "_spread": {
+    "fps": [
+     57.3,
+     57.3
+    ],
+    "cpu_pct": [
+     3.5,
+     3.5
+    ],
+    "cpu_ms_per_frame": [
+     0.609,
+     0.615
+    ],
+    "ws_mb": [
+     83.4,
+     83.8
+    ],
+    "peak_ws_mb": [
+     83.7,
+     84.1
+    ],
+    "private_mb": [
+     22.1,
+     22.2
+    ],
+    "first_frame_ms": [
+     2,
+     3
+    ],
+    "gpu_ms_per_frame": [
+     8.08,
+     8.86
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "gpui (GPU, Vulkan)",
+   "renderer": "gpu",
+   "uncapped": false,
+   "cells": 100,
+   "mode": "one",
+   "fps": 60.0,
+   "cpu_pct": 8.2,
+   "cpu_ms_per_frame": 1.362,
+   "ws_mb": 88.0,
+   "peak_ws_mb": 88.0,
+   "private_mb": 25.6,
+   "gpu_ms_per_frame": 2.0,
+   "first_frame_ms": 76,
+   "wall_s": 13.845513838000443,
+   "_spread": {
+    "fps": [
+     59.9,
+     60.0
+    ],
+    "cpu_pct": [
+     7.6,
+     9.5
+    ],
+    "cpu_ms_per_frame": [
+     1.268,
+     1.583
+    ],
+    "ws_mb": [
+     88.0,
+     88.1
+    ],
+    "peak_ws_mb": [
+     88.0,
+     88.1
+    ],
+    "private_mb": [
+     25.6,
+     25.7
+    ],
+    "first_frame_ms": [
+     63,
+     103
+    ],
+    "gpu_ms_per_frame": [
+     1.86,
+     2.28
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "bui (CPU raster)",
+   "renderer": "cpu",
+   "uncapped": false,
+   "cells": 100,
+   "mode": "idle",
+   "fps": 0.0,
+   "cpu_pct": 0.1,
+   "cpu_ms_per_frame": 0.0,
+   "ws_mb": 17.1,
+   "peak_ws_mb": 17.1,
+   "private_mb": 9.0,
+   "gpu_ms_per_frame": null,
+   "first_frame_ms": 2,
+   "wall_s": 14.27346975799992,
+   "_spread": {
+    "fps": [
+     0.0,
+     0.0
+    ],
+    "cpu_pct": [
+     0.1,
+     0.1
+    ],
+    "cpu_ms_per_frame": [
+     0.0,
+     0.0
+    ],
+    "ws_mb": [
+     17.1,
+     17.3
+    ],
+    "peak_ws_mb": [
+     17.1,
+     17.3
+    ],
+    "private_mb": [
+     9.0,
+     9.0
+    ],
+    "first_frame_ms": [
+     1,
+     2
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "bui (GPU renderer)",
+   "renderer": "gpu",
+   "uncapped": false,
+   "cells": 100,
+   "mode": "idle",
+   "fps": 0.0,
+   "cpu_pct": 0.1,
+   "cpu_ms_per_frame": 0.0,
+   "ws_mb": 82.7,
+   "peak_ws_mb": 82.7,
+   "private_mb": 21.0,
+   "gpu_ms_per_frame": 0.0,
+   "first_frame_ms": 2,
+   "wall_s": 14.276536238000517,
+   "_spread": {
+    "fps": [
+     0.0,
+     0.0
+    ],
+    "cpu_pct": [
+     0.1,
+     0.1
+    ],
+    "cpu_ms_per_frame": [
+     0.0,
+     0.0
+    ],
+    "ws_mb": [
+     82.6,
+     83.0
+    ],
+    "peak_ws_mb": [
+     82.6,
+     83.0
+    ],
+    "private_mb": [
+     21.0,
+     21.0
+    ],
+    "first_frame_ms": [
+     2,
+     3
+    ],
+    "gpu_ms_per_frame": [
+     0.0,
+     0.0
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "gpui (GPU, Vulkan)",
+   "renderer": "gpu",
+   "uncapped": false,
+   "cells": 100,
+   "mode": "idle",
+   "fps": 0.0,
+   "cpu_pct": 0.3,
+   "cpu_ms_per_frame": 0.0,
+   "ws_mb": 88.0,
+   "peak_ws_mb": 88.0,
+   "private_mb": 25.6,
+   "gpu_ms_per_frame": 0.0,
+   "first_frame_ms": 56,
+   "wall_s": 14.344682652999836,
+   "_spread": {
+    "fps": [
+     0.0,
+     0.0
+    ],
+    "cpu_pct": [
+     0.2,
+     0.3
+    ],
+    "cpu_ms_per_frame": [
+     0.0,
+     0.0
+    ],
+    "ws_mb": [
+     87.9,
+     88.2
+    ],
+    "peak_ws_mb": [
+     87.9,
+     88.2
+    ],
+    "private_mb": [
+     25.6,
+     25.7
+    ],
+    "first_frame_ms": [
+     53,
+     82
+    ],
+    "gpu_ms_per_frame": [
+     0.0,
+     0.0
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "bui (CPU raster)",
+   "renderer": "cpu",
+   "uncapped": false,
+   "cells": 1000,
+   "mode": "anim",
+   "fps": 42.0,
+   "cpu_pct": 27.0,
+   "cpu_ms_per_frame": 6.411,
+   "ws_mb": 24.2,
+   "peak_ws_mb": 24.2,
+   "private_mb": 16.0,
+   "gpu_ms_per_frame": null,
+   "first_frame_ms": 2,
+   "wall_s": 13.7728213040009,
+   "_spread": {
+    "fps": [
+     41.9,
+     42.1
+    ],
+    "cpu_pct": [
+     26.9,
+     27.2
+    ],
+    "cpu_ms_per_frame": [
+     6.395,
+     6.477
+    ],
+    "ws_mb": [
+     24.1,
+     24.2
+    ],
+    "peak_ws_mb": [
+     24.1,
+     24.2
+    ],
+    "private_mb": [
+     16.0,
+     16.0
+    ],
+    "first_frame_ms": [
+     1,
+     2
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "bui (GPU renderer)",
+   "renderer": "gpu",
+   "uncapped": false,
+   "cells": 1000,
+   "mode": "anim",
+   "fps": 50.7,
+   "cpu_pct": 14.3,
+   "cpu_ms_per_frame": 2.816,
+   "ws_mb": 90.4,
+   "peak_ws_mb": 90.4,
+   "private_mb": 28.6,
+   "gpu_ms_per_frame": 21.09,
+   "first_frame_ms": 2,
+   "wall_s": 13.776598133999869,
+   "_spread": {
+    "fps": [
+     50.5,
+     50.7
+    ],
+    "cpu_pct": [
+     14.1,
+     14.5
+    ],
+    "cpu_ms_per_frame": [
+     2.787,
+     2.878
+    ],
+    "ws_mb": [
+     90.2,
+     90.5
+    ],
+    "peak_ws_mb": [
+     90.2,
+     90.5
+    ],
+    "private_mb": [
+     28.4,
+     28.7
+    ],
+    "first_frame_ms": [
+     2,
+     3
+    ],
+    "gpu_ms_per_frame": [
+     21.03,
+     21.38
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "gpui (GPU, Vulkan)",
+   "renderer": "gpu",
+   "uncapped": false,
+   "cells": 1000,
+   "mode": "anim",
+   "fps": 59.8,
+   "cpu_pct": 61.2,
+   "cpu_ms_per_frame": 10.225,
+   "ws_mb": 102.5,
+   "peak_ws_mb": 102.5,
+   "private_mb": 40.0,
+   "gpu_ms_per_frame": 2.04,
+   "first_frame_ms": 53,
+   "wall_s": 13.826402983999287,
+   "_spread": {
+    "fps": [
+     59.8,
+     59.9
+    ],
+    "cpu_pct": [
+     61.0,
+     61.6
+    ],
+    "cpu_ms_per_frame": [
+     10.197,
+     10.296
+    ],
+    "ws_mb": [
+     102.2,
+     102.6
+    ],
+    "peak_ws_mb": [
+     102.2,
+     102.6
+    ],
+    "private_mb": [
+     39.7,
+     40.0
+    ],
+    "first_frame_ms": [
+     53,
+     59
+    ],
+    "gpu_ms_per_frame": [
+     2.03,
+     2.05
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "bui (CPU raster)",
+   "renderer": "cpu",
+   "uncapped": true,
+   "cells": 1000,
+   "mode": "anim",
+   "fps": 41.6,
+   "cpu_pct": 27.8,
+   "cpu_ms_per_frame": 6.682,
+   "ws_mb": 23.3,
+   "peak_ws_mb": 24.2,
+   "private_mb": 15.1,
+   "gpu_ms_per_frame": null,
+   "first_frame_ms": 1,
+   "wall_s": 13.772664669000733,
+   "_spread": {
+    "fps": [
+     41.6,
+     41.7
+    ],
+    "cpu_pct": [
+     27.7,
+     28.2
+    ],
+    "cpu_ms_per_frame": [
+     6.645,
+     6.766
+    ],
+    "ws_mb": [
+     23.3,
+     23.4
+    ],
+    "peak_ws_mb": [
+     24.1,
+     24.2
+    ],
+    "private_mb": [
+     15.0,
+     15.1
+    ],
+    "first_frame_ms": [
+     1,
+     2
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "bui (GPU renderer)",
+   "renderer": "gpu",
+   "uncapped": true,
+   "cells": 1000,
+   "mode": "anim",
+   "fps": 50.6,
+   "cpu_pct": 14.4,
+   "cpu_ms_per_frame": 2.843,
+   "ws_mb": 90.4,
+   "peak_ws_mb": 90.4,
+   "private_mb": 28.6,
+   "gpu_ms_per_frame": 21.08,
+   "first_frame_ms": 2,
+   "wall_s": 13.777099466000436,
+   "_spread": {
+    "fps": [
+     50.4,
+     50.9
+    ],
+    "cpu_pct": [
+     14.1,
+     14.4
+    ],
+    "cpu_ms_per_frame": [
+     2.768,
+     2.861
+    ],
+    "ws_mb": [
+     90.2,
+     90.5
+    ],
+    "peak_ws_mb": [
+     90.2,
+     90.5
+    ],
+    "private_mb": [
+     28.4,
+     28.7
+    ],
+    "first_frame_ms": [
+     1,
+     3
+    ],
+    "gpu_ms_per_frame": [
+     21.03,
+     21.37
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "gpui (GPU, Vulkan)",
+   "renderer": "gpu",
+   "uncapped": true,
+   "cells": 1000,
+   "mode": "anim",
+   "fps": 59.9,
+   "cpu_pct": 61.3,
+   "cpu_ms_per_frame": 10.236,
+   "ws_mb": 102.2,
+   "peak_ws_mb": 102.2,
+   "private_mb": 39.9,
+   "gpu_ms_per_frame": 2.04,
+   "first_frame_ms": 72,
+   "wall_s": 13.845089360000202,
+   "_spread": {
+    "fps": [
+     59.6,
+     59.9
+    ],
+    "cpu_pct": [
+     60.9,
+     61.8
+    ],
+    "cpu_ms_per_frame": [
+     10.173,
+     10.354
+    ],
+    "ws_mb": [
+     102.1,
+     102.3
+    ],
+    "peak_ws_mb": [
+     102.1,
+     102.3
+    ],
+    "private_mb": [
+     39.8,
+     39.9
+    ],
+    "first_frame_ms": [
+     52,
+     80
+    ],
+    "gpu_ms_per_frame": [
+     2.03,
+     2.04
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "bui (CPU raster)",
+   "renderer": "cpu",
+   "uncapped": false,
+   "cells": 1000,
+   "mode": "one",
+   "fps": 44.4,
+   "cpu_pct": 25.2,
+   "cpu_ms_per_frame": 5.679,
+   "ws_mb": 24.0,
+   "peak_ws_mb": 24.0,
+   "private_mb": 15.9,
+   "gpu_ms_per_frame": null,
+   "first_frame_ms": 2,
+   "wall_s": 13.773990059000425,
+   "_spread": {
+    "fps": [
+     44.4,
+     44.4
+    ],
+    "cpu_pct": [
+     25.1,
+     25.3
+    ],
+    "cpu_ms_per_frame": [
+     5.662,
+     5.688
+    ],
+    "ws_mb": [
+     23.9,
+     24.1
+    ],
+    "peak_ws_mb": [
+     23.9,
+     24.1
+    ],
+    "private_mb": [
+     15.9,
+     15.9
+    ],
+    "first_frame_ms": [
+     1,
+     2
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "bui (GPU renderer)",
+   "renderer": "gpu",
+   "uncapped": false,
+   "cells": 1000,
+   "mode": "one",
+   "fps": 51.0,
+   "cpu_pct": 13.5,
+   "cpu_ms_per_frame": 2.652,
+   "ws_mb": 90.1,
+   "peak_ws_mb": 90.1,
+   "private_mb": 28.5,
+   "gpu_ms_per_frame": 21.04,
+   "first_frame_ms": 3,
+   "wall_s": 13.775903014000505,
+   "_spread": {
+    "fps": [
+     50.9,
+     51.1
+    ],
+    "cpu_pct": [
+     13.4,
+     13.6
+    ],
+    "cpu_ms_per_frame": [
+     2.631,
+     2.657
+    ],
+    "ws_mb": [
+     90.0,
+     90.3
+    ],
+    "peak_ws_mb": [
+     90.0,
+     90.3
+    ],
+    "private_mb": [
+     28.5,
+     28.6
+    ],
+    "first_frame_ms": [
+     1,
+     3
+    ],
+    "gpu_ms_per_frame": [
+     20.98,
+     21.14
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "gpui (GPU, Vulkan)",
+   "renderer": "gpu",
+   "uncapped": false,
+   "cells": 1000,
+   "mode": "one",
+   "fps": 59.8,
+   "cpu_pct": 61.2,
+   "cpu_ms_per_frame": 10.219,
+   "ws_mb": 102.2,
+   "peak_ws_mb": 102.2,
+   "private_mb": 39.8,
+   "gpu_ms_per_frame": 2.03,
+   "first_frame_ms": 60,
+   "wall_s": 13.833149396999943,
+   "_spread": {
+    "fps": [
+     59.7,
+     59.9
+    ],
+    "cpu_pct": [
+     60.8,
+     61.5
+    ],
+    "cpu_ms_per_frame": [
+     10.157,
+     10.286
+    ],
+    "ws_mb": [
+     101.9,
+     102.3
+    ],
+    "peak_ws_mb": [
+     101.9,
+     102.3
+    ],
+    "private_mb": [
+     39.7,
+     39.9
+    ],
+    "first_frame_ms": [
+     53,
+     94
+    ],
+    "gpu_ms_per_frame": [
+     2.02,
+     2.03
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "bui (CPU raster)",
+   "renderer": "cpu",
+   "uncapped": false,
+   "cells": 1000,
+   "mode": "idle",
+   "fps": 0.0,
+   "cpu_pct": 0.1,
+   "cpu_ms_per_frame": 0.0,
+   "ws_mb": 22.8,
+   "peak_ws_mb": 22.8,
+   "private_mb": 14.6,
+   "gpu_ms_per_frame": null,
+   "first_frame_ms": 2,
+   "wall_s": 14.275860114999887,
+   "_spread": {
+    "fps": [
+     0.0,
+     0.0
+    ],
+    "cpu_pct": [
+     0.1,
+     0.1
+    ],
+    "cpu_ms_per_frame": [
+     0.0,
+     0.0
+    ],
+    "ws_mb": [
+     22.8,
+     23.0
+    ],
+    "peak_ws_mb": [
+     22.8,
+     23.0
+    ],
+    "private_mb": [
+     14.6,
+     14.6
+    ],
+    "first_frame_ms": [
+     1,
+     2
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "bui (GPU renderer)",
+   "renderer": "gpu",
+   "uncapped": false,
+   "cells": 1000,
+   "mode": "idle",
+   "fps": 0.0,
+   "cpu_pct": 0.1,
+   "cpu_ms_per_frame": 0.0,
+   "ws_mb": 88.7,
+   "peak_ws_mb": 88.7,
+   "private_mb": 26.9,
+   "gpu_ms_per_frame": 0.0,
+   "first_frame_ms": 2,
+   "wall_s": 14.280272027999672,
+   "_spread": {
+    "fps": [
+     0.0,
+     0.0
+    ],
+    "cpu_pct": [
+     0.1,
+     0.1
+    ],
+    "cpu_ms_per_frame": [
+     0.0,
+     0.0
+    ],
+    "ws_mb": [
+     88.5,
+     88.8
+    ],
+    "peak_ws_mb": [
+     88.5,
+     88.8
+    ],
+    "private_mb": [
+     26.9,
+     26.9
+    ],
+    "first_frame_ms": [
+     2,
+     3
+    ],
+    "gpu_ms_per_frame": [
+     0.0,
+     0.0
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "gpui (GPU, Vulkan)",
+   "renderer": "gpu",
+   "uncapped": false,
+   "cells": 1000,
+   "mode": "idle",
+   "fps": 0.0,
+   "cpu_pct": 0.3,
+   "cpu_ms_per_frame": 0.0,
+   "ws_mb": 102.2,
+   "peak_ws_mb": 102.2,
+   "private_mb": 39.8,
+   "gpu_ms_per_frame": 0.0,
+   "first_frame_ms": 56,
+   "wall_s": 14.337192384000446,
+   "_spread": {
+    "fps": [
+     0.0,
+     0.0
+    ],
+    "cpu_pct": [
+     0.2,
+     0.3
+    ],
+    "cpu_ms_per_frame": [
+     0.0,
+     0.0
+    ],
+    "ws_mb": [
+     102.0,
+     102.6
+    ],
+    "peak_ws_mb": [
+     102.0,
+     102.6
+    ],
+    "private_mb": [
+     39.7,
+     40.0
+    ],
+    "first_frame_ms": [
+     53,
+     57
+    ],
+    "gpu_ms_per_frame": [
+     0.0,
+     0.0
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "bui (CPU raster)",
+   "renderer": "cpu",
+   "uncapped": false,
+   "cells": 3000,
+   "mode": "anim",
+   "fps": 33.4,
+   "cpu_pct": 41.7,
+   "cpu_ms_per_frame": 12.491,
+   "ws_mb": 32.9,
+   "peak_ws_mb": 33.4,
+   "private_mb": 24.6,
+   "gpu_ms_per_frame": null,
+   "first_frame_ms": 2,
+   "wall_s": 13.771927129999312,
+   "_spread": {
+    "fps": [
+     33.2,
+     33.5
+    ],
+    "cpu_pct": [
+     41.6,
+     42.2
+    ],
+    "cpu_ms_per_frame": [
+     12.449,
+     12.688
+    ],
+    "ws_mb": [
+     32.7,
+     34.2
+    ],
+    "peak_ws_mb": [
+     33.2,
+     34.8
+    ],
+    "private_mb": [
+     24.6,
+     25.9
+    ],
+    "first_frame_ms": [
+     2,
+     3
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "bui (GPU renderer)",
+   "renderer": "gpu",
+   "uncapped": false,
+   "cells": 3000,
+   "mode": "anim",
+   "fps": 39.7,
+   "cpu_pct": 32.6,
+   "cpu_ms_per_frame": 8.203,
+   "ws_mb": 101.5,
+   "peak_ws_mb": 101.5,
+   "private_mb": 39.8,
+   "gpu_ms_per_frame": 29.01,
+   "first_frame_ms": 2,
+   "wall_s": 13.775867948999803,
+   "_spread": {
+    "fps": [
+     39.5,
+     39.8
+    ],
+    "cpu_pct": [
+     32.6,
+     32.9
+    ],
+    "cpu_ms_per_frame": [
+     8.185,
+     8.326
+    ],
+    "ws_mb": [
+     100.4,
+     101.7
+    ],
+    "peak_ws_mb": [
+     100.4,
+     101.7
+    ],
+    "private_mb": [
+     38.8,
+     40.0
+    ],
+    "first_frame_ms": [
+     1,
+     3
+    ],
+    "gpu_ms_per_frame": [
+     28.82,
+     29.31
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "gpui (GPU, Vulkan)",
+   "renderer": "gpu",
+   "uncapped": false,
+   "cells": 3000,
+   "mode": "anim",
+   "fps": 27.9,
+   "cpu_pct": 90.9,
+   "cpu_ms_per_frame": 32.581,
+   "ws_mb": 133.4,
+   "peak_ws_mb": 133.4,
+   "private_mb": 71.0,
+   "gpu_ms_per_frame": 2.65,
+   "first_frame_ms": 66,
+   "wall_s": 13.841922216000967,
+   "_spread": {
+    "fps": [
+     27.8,
+     28.5
+    ],
+    "cpu_pct": [
+     90.6,
+     92.7
+    ],
+    "cpu_ms_per_frame": [
+     32.386,
+     32.68
+    ],
+    "ws_mb": [
+     132.7,
+     135.7
+    ],
+    "peak_ws_mb": [
+     132.7,
+     135.7
+    ],
+    "private_mb": [
+     70.4,
+     73.2
+    ],
+    "first_frame_ms": [
+     58,
+     73
+    ],
+    "gpu_ms_per_frame": [
+     2.63,
+     2.66
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "bui (CPU raster)",
+   "renderer": "cpu",
+   "uncapped": true,
+   "cells": 3000,
+   "mode": "anim",
+   "fps": 33.5,
+   "cpu_pct": 41.5,
+   "cpu_ms_per_frame": 12.376,
+   "ws_mb": 33.4,
+   "peak_ws_mb": 33.4,
+   "private_mb": 25.3,
+   "gpu_ms_per_frame": null,
+   "first_frame_ms": 2,
+   "wall_s": 13.774225963999925,
+   "_spread": {
+    "fps": [
+     33.4,
+     33.6
+    ],
+    "cpu_pct": [
+     41.3,
+     41.7
+    ],
+    "cpu_ms_per_frame": [
+     12.285,
+     12.471
+    ],
+    "ws_mb": [
+     33.2,
+     34.9
+    ],
+    "peak_ws_mb": [
+     33.2,
+     34.9
+    ],
+    "private_mb": [
+     25.3,
+     26.6
+    ],
+    "first_frame_ms": [
+     1,
+     2
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "bui (GPU renderer)",
+   "renderer": "gpu",
+   "uncapped": true,
+   "cells": 3000,
+   "mode": "anim",
+   "fps": 39.7,
+   "cpu_pct": 32.5,
+   "cpu_ms_per_frame": 8.184,
+   "ws_mb": 100.8,
+   "peak_ws_mb": 100.8,
+   "private_mb": 38.8,
+   "gpu_ms_per_frame": 29.03,
+   "first_frame_ms": 2,
+   "wall_s": 13.774512742000297,
+   "_spread": {
+    "fps": [
+     39.7,
+     39.8
+    ],
+    "cpu_pct": [
+     32.3,
+     32.6
+    ],
+    "cpu_ms_per_frame": [
+     8.121,
+     8.21
+    ],
+    "ws_mb": [
+     100.6,
+     101.9
+    ],
+    "peak_ws_mb": [
+     100.6,
+     101.9
+    ],
+    "private_mb": [
+     38.8,
+     40.1
+    ],
+    "first_frame_ms": [
+     1,
+     3
+    ],
+    "gpu_ms_per_frame": [
+     28.68,
+     29.57
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "gpui (GPU, Vulkan)",
+   "renderer": "gpu",
+   "uncapped": true,
+   "cells": 3000,
+   "mode": "anim",
+   "fps": 28.1,
+   "cpu_pct": 91.4,
+   "cpu_ms_per_frame": 32.561,
+   "ws_mb": 133.5,
+   "peak_ws_mb": 133.5,
+   "private_mb": 71.0,
+   "gpu_ms_per_frame": 2.63,
+   "first_frame_ms": 57,
+   "wall_s": 13.839325451999684,
+   "_spread": {
+    "fps": [
+     27.8,
+     28.4
+    ],
+    "cpu_pct": [
+     90.4,
+     92.3
+    ],
+    "cpu_ms_per_frame": [
+     32.447,
+     32.578
+    ],
+    "ws_mb": [
+     132.8,
+     134.4
+    ],
+    "peak_ws_mb": [
+     132.8,
+     134.4
+    ],
+    "private_mb": [
+     70.4,
+     72.0
+    ],
+    "first_frame_ms": [
+     53,
+     89
+    ],
+    "gpu_ms_per_frame": [
+     2.6,
+     2.64
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "bui (CPU raster)",
+   "renderer": "cpu",
+   "uncapped": false,
+   "cells": 3000,
+   "mode": "one",
+   "fps": 35.4,
+   "cpu_pct": 40.2,
+   "cpu_ms_per_frame": 11.348,
+   "ws_mb": 33.6,
+   "peak_ws_mb": 33.6,
+   "private_mb": 25.3,
+   "gpu_ms_per_frame": null,
+   "first_frame_ms": 2,
+   "wall_s": 13.776375360999737,
+   "_spread": {
+    "fps": [
+     35.3,
+     35.5
+    ],
+    "cpu_pct": [
+     40.1,
+     40.4
+    ],
+    "cpu_ms_per_frame": [
+     11.298,
+     11.445
+    ],
+    "ws_mb": [
+     33.4,
+     34.9
+    ],
+    "peak_ws_mb": [
+     33.4,
+     34.9
+    ],
+    "private_mb": [
+     25.3,
+     26.6
+    ],
+    "first_frame_ms": [
+     1,
+     3
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "bui (GPU renderer)",
+   "renderer": "gpu",
+   "uncapped": false,
+   "cells": 3000,
+   "mode": "one",
+   "fps": 40.5,
+   "cpu_pct": 31.2,
+   "cpu_ms_per_frame": 7.701,
+   "ws_mb": 101.7,
+   "peak_ws_mb": 101.7,
+   "private_mb": 40.0,
+   "gpu_ms_per_frame": 28.43,
+   "first_frame_ms": 2,
+   "wall_s": 13.777239147000728,
+   "_spread": {
+    "fps": [
+     40.3,
+     40.6
+    ],
+    "cpu_pct": [
+     31.1,
+     31.6
+    ],
+    "cpu_ms_per_frame": [
+     7.643,
+     7.847
+    ],
+    "ws_mb": [
+     100.5,
+     101.8
+    ],
+    "peak_ws_mb": [
+     100.5,
+     101.9
+    ],
+    "private_mb": [
+     38.8,
+     40.1
+    ],
+    "first_frame_ms": [
+     1,
+     3
+    ],
+    "gpu_ms_per_frame": [
+     28.01,
+     28.7
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "gpui (GPU, Vulkan)",
+   "renderer": "gpu",
+   "uncapped": false,
+   "cells": 3000,
+   "mode": "one",
+   "fps": 26.0,
+   "cpu_pct": 85.9,
+   "cpu_ms_per_frame": 33.083,
+   "ws_mb": 133.9,
+   "peak_ws_mb": 133.9,
+   "private_mb": 71.4,
+   "gpu_ms_per_frame": 2.66,
+   "first_frame_ms": 57,
+   "wall_s": 14.329585789999328,
+   "_spread": {
+    "fps": [
+     25.1,
+     27.5
+    ],
+    "cpu_pct": [
+     83.2,
+     90.2
+    ],
+    "cpu_ms_per_frame": [
+     32.836,
+     33.568
+    ],
+    "ws_mb": [
+     132.9,
+     134.6
+    ],
+    "peak_ws_mb": [
+     132.9,
+     134.6
+    ],
+    "private_mb": [
+     70.4,
+     72.0
+    ],
+    "first_frame_ms": [
+     53,
+     64
+    ],
+    "gpu_ms_per_frame": [
+     2.62,
+     2.68
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "bui (CPU raster)",
+   "renderer": "cpu",
+   "uncapped": false,
+   "cells": 3000,
+   "mode": "idle",
+   "fps": 0.0,
+   "cpu_pct": 0.1,
+   "cpu_ms_per_frame": 0.0,
+   "ws_mb": 32.3,
+   "peak_ws_mb": 32.3,
+   "private_mb": 24.2,
+   "gpu_ms_per_frame": null,
+   "first_frame_ms": 2,
+   "wall_s": 14.279364007999902,
+   "_spread": {
+    "fps": [
+     0.0,
+     0.0
+    ],
+    "cpu_pct": [
+     0.1,
+     0.1
+    ],
+    "cpu_ms_per_frame": [
+     0.0,
+     0.0
+    ],
+    "ws_mb": [
+     32.1,
+     33.4
+    ],
+    "peak_ws_mb": [
+     32.1,
+     33.4
+    ],
+    "private_mb": [
+     24.2,
+     25.3
+    ],
+    "first_frame_ms": [
+     1,
+     2
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "bui (GPU renderer)",
+   "renderer": "gpu",
+   "uncapped": false,
+   "cells": 3000,
+   "mode": "idle",
+   "fps": 0.0,
+   "cpu_pct": 0.1,
+   "cpu_ms_per_frame": 0.0,
+   "ws_mb": 99.6,
+   "peak_ws_mb": 99.6,
+   "private_mb": 38.0,
+   "gpu_ms_per_frame": 0.0,
+   "first_frame_ms": 2,
+   "wall_s": 14.277618788999462,
+   "_spread": {
+    "fps": [
+     0.0,
+     0.0
+    ],
+    "cpu_pct": [
+     0.1,
+     0.1
+    ],
+    "cpu_ms_per_frame": [
+     0.0,
+     0.0
+    ],
+    "ws_mb": [
+     98.7,
+     100.1
+    ],
+    "peak_ws_mb": [
+     98.7,
+     100.1
+    ],
+    "private_mb": [
+     37.1,
+     38.3
+    ],
+    "first_frame_ms": [
+     2,
+     2
+    ],
+    "gpu_ms_per_frame": [
+     0.0,
+     0.0
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "gpui (GPU, Vulkan)",
+   "renderer": "gpu",
+   "uncapped": false,
+   "cells": 3000,
+   "mode": "idle",
+   "fps": 0.0,
+   "cpu_pct": 0.3,
+   "cpu_ms_per_frame": 0.0,
+   "ws_mb": 133.8,
+   "peak_ws_mb": 133.8,
+   "private_mb": 71.2,
+   "gpu_ms_per_frame": 0.0,
+   "first_frame_ms": 57,
+   "wall_s": 14.375998094999886,
+   "_spread": {
+    "fps": [
+     0.0,
+     0.0
+    ],
+    "cpu_pct": [
+     0.3,
+     0.3
+    ],
+    "cpu_ms_per_frame": [
+     0.0,
+     0.0
+    ],
+    "ws_mb": [
+     132.6,
+     135.5
+    ],
+    "peak_ws_mb": [
+     132.6,
+     135.5
+    ],
+    "private_mb": [
+     70.0,
+     72.9
+    ],
+    "first_frame_ms": [
+     53,
+     94
+    ],
+    "gpu_ms_per_frame": [
+     0.0,
+     0.0
+    ]
+   },
+   "_reps": 5,
+   "example": 1
+  },
+  {
+   "app": "bui form (divs)",
+   "renderer": "cpu",
+   "uncapped": false,
+   "cells": 100,
+   "mode": "static",
+   "fps": 0.0,
+   "cpu_pct": 0.1,
+   "cpu_ms_per_frame": 0.0,
+   "ws_mb": 10.1,
+   "peak_ws_mb": 10.1,
+   "private_mb": 2.1,
+   "gpu_ms_per_frame": null,
+   "first_frame_ms": 2,
+   "wall_s": 14.278260207998756,
+   "_spread": {
+    "fps": [
+     0.0,
+     0.0
+    ],
+    "cpu_pct": [
+     0.1,
+     0.1
+    ],
+    "cpu_ms_per_frame": [
+     0.0,
+     0.0
+    ],
+    "ws_mb": [
+     10.1,
+     10.2
+    ],
+    "peak_ws_mb": [
+     10.1,
+     10.2
+    ],
+    "private_mb": [
+     2.1,
+     2.1
+    ],
+    "first_frame_ms": [
+     1,
+     3
+    ]
+   },
+   "_reps": 5,
+   "example": 2
+  },
+  {
+   "app": "bui form (divs) + GPU",
+   "renderer": "gpu",
+   "uncapped": false,
+   "cells": 100,
+   "mode": "static",
+   "fps": 0.0,
+   "cpu_pct": 0.1,
+   "cpu_ms_per_frame": 0.0,
+   "ws_mb": 81.5,
+   "peak_ws_mb": 81.5,
+   "private_mb": 19.8,
+   "gpu_ms_per_frame": 0.0,
+   "first_frame_ms": 3,
+   "wall_s": 14.27863125499971,
+   "_spread": {
+    "fps": [
+     0.0,
+     0.0
+    ],
+    "cpu_pct": [
+     0.1,
+     0.1
+    ],
+    "cpu_ms_per_frame": [
+     0.0,
+     0.0
+    ],
+    "ws_mb": [
+     81.2,
+     81.6
+    ],
+    "peak_ws_mb": [
+     81.2,
+     81.6
+    ],
+    "private_mb": [
+     19.8,
+     19.8
+    ],
+    "first_frame_ms": [
+     2,
+     3
+    ],
+    "gpu_ms_per_frame": [
+     0.0,
+     0.0
+    ]
+   },
+   "_reps": 5,
+   "example": 2
+  },
+  {
+   "app": "bui form (Blender widgets)",
+   "renderer": "cpu",
+   "uncapped": false,
+   "cells": 100,
+   "mode": "static",
+   "fps": 0.0,
+   "cpu_pct": 0.1,
+   "cpu_ms_per_frame": 0.0,
+   "ws_mb": 10.4,
+   "peak_ws_mb": 10.4,
+   "private_mb": 2.1,
+   "gpu_ms_per_frame": null,
+   "first_frame_ms": 3,
+   "wall_s": 14.276470323000467,
+   "_spread": {
+    "fps": [
+     0.0,
+     2.2
+    ],
+    "cpu_pct": [
+     0.1,
+     0.2
+    ],
+    "cpu_ms_per_frame": [
+     0.0,
+     0.997
+    ],
+    "ws_mb": [
+     10.2,
+     10.5
+    ],
+    "peak_ws_mb": [
+     10.2,
+     10.8
+    ],
+    "private_mb": [
+     2.1,
+     2.2
+    ],
+    "first_frame_ms": [
+     2,
+     3
+    ]
+   },
+   "_reps": 5,
+   "example": 2
+  },
+  {
+   "app": "gpui form (divs)",
+   "renderer": "gpu",
+   "uncapped": false,
+   "cells": 100,
+   "mode": "static",
+   "fps": 0.0,
+   "cpu_pct": 0.3,
+   "cpu_ms_per_frame": 0.0,
+   "ws_mb": 87.0,
+   "peak_ws_mb": 87.0,
+   "private_mb": 24.5,
+   "gpu_ms_per_frame": 0.0,
+   "first_frame_ms": 73,
+   "wall_s": 14.334935417000452,
+   "_spread": {
+    "fps": [
+     0.0,
+     0.0
+    ],
+    "cpu_pct": [
+     0.3,
+     0.3
+    ],
+    "cpu_ms_per_frame": [
+     0.0,
+     0.0
+    ],
+    "ws_mb": [
+     86.7,
+     87.2
+    ],
+    "peak_ws_mb": [
+     86.7,
+     87.2
+    ],
+    "private_mb": [
+     24.5,
+     24.6
+    ],
+    "first_frame_ms": [
+     60,
+     87
+    ],
+    "gpu_ms_per_frame": [
+     0.0,
+     0.0
+    ]
+   },
+   "_reps": 5,
+   "example": 2
+  }
+ ]
+}

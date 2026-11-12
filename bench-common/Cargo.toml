@@ -1,0 +1,8 @@
+[package]
+name = "bench-common"
+version = "0.1.0"
+edition = "2021"
+publish = false
+description = "Scene parameters and process measurement shared by every benchmark app"
+
+[dependencies]

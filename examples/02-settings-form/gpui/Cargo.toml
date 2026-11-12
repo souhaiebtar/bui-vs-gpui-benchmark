@@ -1,0 +1,10 @@
+[package]
+name = "settings-form-gpui"
+version = "0.1.0"
+edition = "2021"
+publish = false
+description = "Example 2: the same static settings form on gpui - startup, memory, idle"
+
+[dependencies]
+bench-common = { path = "../../../bench-common" }
+gpui = "0.2.2"

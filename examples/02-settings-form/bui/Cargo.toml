@@ -1,0 +1,10 @@
+[package]
+name = "settings-form-bui"
+version = "0.1.0"
+edition = "2021"
+publish = false
+description = "Example 2: a static settings form on blenderui (BUI) - startup, memory, idle"
+
+[dependencies]
+bench-common = { path = "../../../bench-common" }
+blenderui = "0.5.0"

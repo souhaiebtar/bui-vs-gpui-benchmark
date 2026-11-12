@@ -1,0 +1,37 @@
+# Two GUI frameworks, one scene, one measurement:
+#   blenderui (BUI)  - https://github.com/ppmpreetham/BUI
+#   gpui             - https://github.com/zed-industries/zed (Zed's UI framework)
+#
+# Every example builds the *same* scene source twice, once per framework, and
+# both binaries measure themselves with bench-common. `bench/run.py` drives them.
+[workspace]
+resolver = "2"
+members = [
+    "bench-common",
+    "examples/01-grid-scene/bui",
+    "examples/01-grid-scene/gpui",
+    "examples/02-settings-form/bui",
+    "examples/02-settings-form/bui-native",
+    "examples/02-settings-form/gpui",
+]
+
+# Release builds are what get measured. Keep symbols out of the binary so the
+# RSS numbers are about the UI, not debug info; keep opt-level at the maximum so
+# both frameworks get the same compiler settings.
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 1
+debug = false
+strip = "symbols"
+panic = "unwind"
+
+[profile.bench]
+inherits = "release"
+
+# `xattr` 0.2.3 (pulled in by gpui's zed-async-tar) refers to `libc::ENOATTR`,
+# which newer libc releases no longer define for glibc Linux. `third_party/xattr`
+# is the same crate with that one constant mapped to ENODATA on Linux; nothing
+# else is changed. Remove this patch once upstream fixes the crate.
+[patch.crates-io]
+xattr = { path = "third_party/xattr" }
